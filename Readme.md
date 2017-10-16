@@ -14,7 +14,7 @@ This project contains one of my graduated school application with NLP and Virtua
 
 ## Important !!!
 
-Please cites this peper belows if you used any of the sub-respositories.
+Please cites this peper belows if you used this or any of the sub-respositories.
 
 Lee, M. C., Yeh, S. C., Chiu, S. Y., & Chang, J. W. (2017, June). [A Deep Convolutional Neural Network Based Virtual Elderly Companion Agent.](http://dl.acm.org/citation.cfm?id=3083220)
 

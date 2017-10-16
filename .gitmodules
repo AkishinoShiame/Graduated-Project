@@ -1,0 +1,12 @@
+[submodule "Virtual-Elderly-Chatbot-IOS-Project"]
+	path = Virtual-Elderly-Chatbot-IOS-Project
+	url = https://github.com/artmusic0/Virtual-Elderly-Chatbot-IOS-Project
+[submodule "Chinese-Speech-Emotion-Datasets"]
+	path = Chinese-Speech-Emotion-Datasets
+	url = https://github.com/artmusic0/Chinese-Speech-Emotion-Datasets
+[submodule "Virtual-Elderly-Chatbot-Server-Structure"]
+	path = Virtual-Elderly-Chatbot-Server-Structure
+	url = https://github.com/artmusic0/Virtual-Elderly-Chatbot-Server-Structure
+[submodule "Virtual-Elderly-Chatbot-App"]
+	path = Virtual-Elderly-Chatbot-App
+	url = https://github.com/artmusic0/Virtual-Elderly-Chatbot-App

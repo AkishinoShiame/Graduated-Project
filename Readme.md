@@ -9,6 +9,7 @@ This project contains one of my graduated school application with NLP and Virtua
 | Virtual-Elderly-Chatbot-Server-Structure | The server code and main part of structure, using python.                       |
 | Virtual-Elderly-Chatbot-App              | The main part of client structure, using unity to build up for multi-plaftform. |
 | Virtual-Elderly-Chatbot-IOS-Project      | The IOS project (Opened with Xcode) of Virtual Elderly Chatbot App.             |
+| Speech-Dataset-in-scikit-learn           | The extended tests and verify on Datasets with other methods in scikit-learn.   |
 
 ###### Test data was random picked from all Counts data.
 

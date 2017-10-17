@@ -10,3 +10,6 @@
 [submodule "Virtual-Elderly-Chatbot-App"]
 	path = Virtual-Elderly-Chatbot-App
 	url = https://github.com/artmusic0/Virtual-Elderly-Chatbot-App
+[submodule "Speech-Dataset-in-scikit-learn"]
+	path = Speech-Dataset-in-scikit-learn
+	url = https://github.com/artmusic0/Speech-Dataset-in-scikit-learn

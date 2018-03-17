@@ -13,6 +13,30 @@ This project contains one of my graduated school application with NLP and Virtua
 
 ###### Test data was random picked from all Counts data.
 
+## Structures
+
+„¡„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„¢
+„    Server                                           „ 
+„                                                     „ 
+„    „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢   „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢   „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢       „ 
+„    „ NVidia  „    „ Flask   „    „ Flask   „        „ 
+„    „ DIGIT   „    „ Server  „    „ Server  „        „ 
+„    „  ------ „    „ WithTag „    „ NoTag   „        „ 
+„    „ for     „    „  ------ „    „  ------ „        „ 
+„    „ Emotion „    „ using   „    „ using   „        „ 
+„    „ Training„    „ DeepQA  „    „ DeepQA  „        „ 
+„    „ and     „    „ for     „    „ for     „        „ 
+„    „ Predict „    „ Chatbot „    „ Chatbot „        „ 
+„    „         „    „         „    „         „        „ 
+„    „¤„Ÿ„Ÿ„Ÿ„Ÿ„£   „¤„Ÿ„Ÿ„Ÿ„Ÿ„£   „¤„Ÿ„Ÿ„Ÿ„Ÿ„£       „ 
+„         „              „             „¤„Ÿ Chat Only „ 
+„         „              „¤ Chat with Emotion input   „ 
+„         „¤ Knows sound emotion and puts to WithTag  „ 
+„                                                     „ 
+„¤„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„£
+
+ Client : Unity ==> Xcode Proj ==> IOS app ( if want, can have a try on android.)
+
 ## Important !!!
 
 Please cites this peper belows if you used this or any of the sub-respositories.

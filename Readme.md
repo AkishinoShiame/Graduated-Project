@@ -15,25 +15,7 @@ This project contains one of my graduated school application with NLP and Virtua
 
 ## Structures
 
-„¡„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„¢
-„    Server                                           „ 
-„                                                     „ 
-„    „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢   „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢   „¡„Ÿ„Ÿ„Ÿ„Ÿ„¢       „ 
-„    „ NVidia  „    „ Flask   „    „ Flask   „        „ 
-„    „ DIGIT   „    „ Server  „    „ Server  „        „ 
-„    „  ------ „    „ WithTag „    „ NoTag   „        „ 
-„    „ for     „    „  ------ „    „  ------ „        „ 
-„    „ Emotion „    „ using   „    „ using   „        „ 
-„    „ Training„    „ DeepQA  „    „ DeepQA  „        „ 
-„    „ and     „    „ for     „    „ for     „        „ 
-„    „ Predict „    „ Chatbot „    „ Chatbot „        „ 
-„    „         „    „         „    „         „        „ 
-„    „¤„Ÿ„Ÿ„Ÿ„Ÿ„£   „¤„Ÿ„Ÿ„Ÿ„Ÿ„£   „¤„Ÿ„Ÿ„Ÿ„Ÿ„£       „ 
-„         „              „             „¤„Ÿ Chat Only „ 
-„         „              „¤ Chat with Emotion input   „ 
-„         „¤ Knows sound emotion and puts to WithTag  „ 
-„                                                     „ 
-„¤„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„£
+![alt text](/StructureMap.png)
 
  Client : Unity ==> Xcode Proj ==> IOS app ( if want, can have a try on android.)
 

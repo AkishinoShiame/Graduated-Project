@@ -28,3 +28,15 @@ Lee, M. C., Yeh, S. C., Chiu, S. Y., & Chang, J. W. (2017, June). [A Deep Convol
 ```
 Ming Che Lee, Sheng Cheng Yeh, Sheng Yu Chiu, Jia Wei Chang. "A Deep Convolutional Neural Network Based Virtual Elderly Companion Agent", MMSys'17 Proceedings of the 8th ACM on Multimedia Systems Conference, Pages 235-238, June 20 - 23, 2017, Taipei, Taiwan. (EI, SIGMM, accept rate: 28%)
 ```
+
+## Release Note
+
+This chapter is adding around 令和1年6月 .
+
+The project will have a formal name called "AI Kernel".
+
+Also, I try to rebuild this structure now and will update a beta release of the installation documentation also details description about the scripts start with "AWWW".
+
+The beta release of this project will finished after the documentation done.
+
+Now keep updating...

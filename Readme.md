@@ -1,4 +1,4 @@
-# Graduated-Project
+# AI Kernel (Graduated-Project)
 
 This project contains one of my graduated school application with NLP and Virtual Agent.
 

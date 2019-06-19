@@ -8,7 +8,7 @@ Please select a language below.
 * [インストール説明の更新](#インストール説明の更新)
 * [安裝手冊更新](#安裝手冊更新)
 
-`=====================================================================`
+`=========================================================================`
 
 # Update for Installation Guide
 
@@ -22,6 +22,8 @@ This document is update for the re-build the project and some code explanation f
 - [x] 2.5inch 2T SATA HDD
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080/#specs)
 
+`=========================================================================`
+
 # インストール説明の更新
 
 このマニュアルの作成は二度のこのAI Kernelのビルドアップとコードの説明の為にを更新する。
@@ -33,6 +35,8 @@ This document is update for the re-build the project and some code explanation f
 - [x] [SAMSUNG SSD 970 EVO M.2 SSD 500GB](https://www.samsung.com/semiconductor/minisite/jp/ssd/consumer/970evo/#ge_semi_anchor_stand2)
 - [x] 2T ハードディスク・HDD(2.5インチ)
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/ja-jp/geforce/graphics-cards/rtx-2080/#specs)
+
+`=========================================================================`
 
 # 安裝手冊更新
 

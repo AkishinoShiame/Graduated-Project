@@ -119,7 +119,7 @@ This document is update for the re-build the project and some code explanation f
 
 ## 実行
 
-* [システムと一緒に実行](#)
+* [システムと一緒に実行](StartWithSystem.MD#システムと一緒に実行)
 
 
 `=========================================================================`
@@ -176,5 +176,5 @@ This document is update for the re-build the project and some code explanation f
 
 ## 使用
 
-* [於系統開機時一起執行](#)
+* [於系統開機時一起執行](StartWithSystem.MD#於系統開機時一起執行)
 

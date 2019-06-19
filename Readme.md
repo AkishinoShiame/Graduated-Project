@@ -40,3 +40,5 @@ Also, I try to rebuild this structure now and will update a beta release of the 
 The beta release of this project will finished after the documentation done.
 
 Now keep updating...
+
+Read the Document from [Here](Docs/)

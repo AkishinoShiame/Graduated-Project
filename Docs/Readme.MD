@@ -22,6 +22,8 @@ This document is update for the re-build the project and some code explanation f
 - [x] 2.5inch 2T SATA HDD
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080/#specs)
 
+## OS, API & Specs
+
 `=========================================================================`
 
 # インストール説明の更新
@@ -36,6 +38,8 @@ This document is update for the re-build the project and some code explanation f
 - [x] 2T ハードディスク・HDD(2.5インチ)
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/ja-jp/geforce/graphics-cards/rtx-2080/#specs)
 
+## オペレーティングシステム、アプリケーションプログラミングインタフェースとスペック
+
 `=========================================================================`
 
 # 安裝手冊更新
@@ -49,3 +53,5 @@ This document is update for the re-build the project and some code explanation f
 - [x] [SAMSUNG SSD 970 EVO M.2 SSD 500GB](https://www.samsung.com/tw/memory-storage/970-evo-nvme-m2-ssd/MZ-V7E500BW/)
 - [x] 2.5吋 2T SATA 硬碟
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/zh-tw/geforce/graphics-cards/rtx-2080/#specs)
+
+## 作業系統，應用程式介面與規格

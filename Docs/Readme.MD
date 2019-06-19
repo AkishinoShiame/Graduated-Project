@@ -14,8 +14,10 @@ This document is update for the re-build the project and some code explanation f
 
 ## Hardware Prepration
 
+- [x] [Intel Core i7-9700K Processor 12M Cache, up to 4.90 GHz](https://ark.intel.com/content/www/us/en/ark/products/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz.html)
 - [x] A completed task
-- [x] A completed task
+- [x] 
+- [x] 
 
 # インストール説明の更新
 
@@ -23,6 +25,10 @@ This document is update for the re-build the project and some code explanation f
 
 ## ハードウェアの準備
 
+- [x] 
+- [x] 
+- [x] 
+- [x] 
 
 # 安裝手冊更新
 
@@ -30,3 +36,7 @@ This document is update for the re-build the project and some code explanation f
 
 ## 硬體配置
 
+- [x] 
+- [x] 
+- [x] 
+- [x] 

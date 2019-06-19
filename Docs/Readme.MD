@@ -14,6 +14,8 @@ This document is update for the re-build the project and some code explanation f
 
 ## Hardware Prepration
 
+- [x] A completed task
+- [x] A completed task
 
 # インストール説明の更新
 

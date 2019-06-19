@@ -6,7 +6,7 @@ Also for the Python works and for debug(log) windows can be trace, decide to sta
 
 First create scripts to one time open main AWWW_web.py server script, create two scripts below.
 
-`vim Start_SV_NoTag.sh`
+`# vim Start_SV_NoTag.sh`
 
 ```bash
 #start NoTag chatbot Python Server
@@ -15,7 +15,7 @@ source /root/.bashrc
 python3 AWWW_web.py
 ```
 
-`vim Start_SV_WithTag.sh`
+`# vim Start_SV_WithTag.sh`
 
 ```bash
 #start WithTag chatbot Python Server
@@ -26,15 +26,15 @@ python3 AWWW_web.py
 
 Then we needs to make the scripts can be execute, add the attribute to the sh files.
 
-`chmod +x Start_SV_*.sh`
+`# chmod +x Start_SV_*.sh`
 
 After this prepration, we needs to create a script execute above start-server script with screen command for the custom service running.
 
 Here call it 'start-all.sh'. for the service been correctly referenced this script, we create it under '/usr/bin/'.
 
-`cd /usr/bin/`
+`# cd /usr/bin/`
 
-`vim start-all.sh`
+`# vim start-all.sh`
 
 ```bash
 #start all shell script
@@ -45,15 +45,15 @@ screen -S WithTagServer -d -m /path/to/Start_SV_*.sh/Start_SV_WithTag.sh
 
 And needs to let start-all.sh been executable.
 
-`chmod +x start-all.sh`
+`# chmod +x start-all.sh`
 
 Finally create the custom service for python server scripts and NVidia DIGITS to run on startup.
 
 Needs to create in both '/lib/systemd/system/' and '/etc/systemd/system/'.
 
-`cd /lib/systemd/system/`
+`# cd /lib/systemd/system/`
 
-`vim aikernel.service`
+`# vim aikernel.service`
 
 ```bash
 [Unit]
@@ -67,7 +67,7 @@ ExecStart=/bin/bash /usr/bin/start-all.sh
 WantedBy=multi-user.target
 ```
 
-`vim digits.service`
+`# vim digits.service`
 
 ```bash
 [Unit]
@@ -86,29 +86,29 @@ WantedBy=multi-user.target
 
 Then make them both workable.
 
-`cp aikernel.service /etc/systemd/system/aikernel.service`
+`# cp aikernel.service /etc/systemd/system/aikernel.service`
 
-`cp digits.service /etc/systemd/system/digits.service`
+`# cp digits.service /etc/systemd/system/digits.service`
 
-`chmod 644 /etc/systemd/system/aikernel.service`
+`# chmod 644 /etc/systemd/system/aikernel.service`
 
-`chmod 644 /etc/systemd/system/digits.service`
+`# chmod 644 /etc/systemd/system/digits.service`
 
 Test the service can normally start.
 
-`systemctl start aikernel`
+`# systemctl start aikernel`
 
-`systemctl start digits`
+`# systemctl start digits`
 
-`screen -ls`
+`# screen -ls`
 
-`ps aux | grep digits`
+`# ps aux | grep digits`
 
 The last, if everything works properly, using enable to make it run with startup.
 
-`systemctl enable aikernel`
+`# systemctl enable aikernel`
 
-`systemctl enable digits`
+`# systemctl enable digits`
 
 That's it!!
 

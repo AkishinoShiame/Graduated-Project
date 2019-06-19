@@ -2,7 +2,7 @@
 
 Please select a language below.
 次の言語に選んでください。
-請餘下方選擇所閱讀的語言。
+請於下方選擇所閱讀的語言。
 
 * [Update for Installation Guide](#Update-for-Installation-Guide)
 * [インストール説明の更新](#インストール説明の更新)

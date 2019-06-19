@@ -34,6 +34,22 @@ This document is update for the re-build the project and some code explanation f
 * Python Flask
 * Python SpeechRecognition
 * Other relative libraries 
+* Unity version 5.6.2f1
+* Xcode 8.0
+* IOS 11
+
+## Installation
+
+* [Python Install](#)
+* [GPU Driver Install](#)
+* [CUDA Toolkit Install](#)
+* [cuDNN Install](#)
+* [OpenCV Install](#)
+* [Caffe Install](#)
+* [DIGITS Install](#)
+* [DeepQA Install](#)
+* [SpeechRecognition Install](#)
+
 
 `=========================================================================`
 
@@ -61,6 +77,22 @@ This document is update for the re-build the project and some code explanation f
 * Python Flask
 * Python SpeechRecognition
 * 他の依存ライブラリ 
+* Unity version 5.6.2f1
+* Xcode 8.0
+* IOS 11
+
+## 導入方法
+
+* [Pythonのインストール](#)
+* [GPU Driverのインストール](#)
+* [CUDA Toolkitのインストール](#)
+* [cuDNNのインストール](#)
+* [OpenCVのインストール](#)
+* [Caffeのインストール](#)
+* [DIGITSのインストール](#)
+* [DeepQAのインストール](#)
+* [SpeechRecognitionのインストール](#)
+
 
 `=========================================================================`
 
@@ -88,3 +120,18 @@ This document is update for the re-build the project and some code explanation f
 * Python Flask
 * Python SpeechRecognition
 * 其他相依套件
+* Unity version 5.6.2f1
+* Xcode 8.0
+* IOS 11
+
+## 安裝步驟
+
+* [Python 安裝](#)
+* [GPU Driver 安裝](#)
+* [CUDA Toolkit 安裝](#)
+* [cuDNN 安裝](#)
+* [OpenCV 安裝](#)
+* [Caffe 安裝](#)
+* [DIGITS 安裝](#)
+* [DeepQA 安裝](#)
+* [SpeechRecognition 安裝](#)

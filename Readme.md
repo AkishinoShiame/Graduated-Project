@@ -41,4 +41,4 @@ The beta release of this project will finished after the documentation done.
 
 Now keep updating...
 
-Read the Document from [Here](Docs/)
+Read the Document from [Here](.Docs/)

@@ -50,6 +50,20 @@ This document is update for the re-build the project and some code explanation f
 * [DeepQA Install](#)
 * [SpeechRecognition Install](#)
 
+## Code description
+
+* [Repo & Structure](#)
+* [AWWW_chatbot_response.py](#)
+* [AWWW_jiebaCut.py](#)
+* [AWWW_pic_pred.py](#)
+* [AWWW_wav_to_STT.py](#)
+* [AWWW_wav_to_spectro.py](#)
+* [AWWW_web.py](#)
+
+## Execution
+
+* [Start with System](#)
+
 
 `=========================================================================`
 
@@ -93,6 +107,20 @@ This document is update for the re-build the project and some code explanation f
 * [DeepQAのインストール](#)
 * [SpeechRecognitionのインストール](#)
 
+## コードの説明
+
+* [リポジトリと構造](#)
+* [AWWW_chatbot_response.py](#)
+* [AWWW_jiebaCut.py](#)
+* [AWWW_pic_pred.py](#)
+* [AWWW_wav_to_STT.py](#)
+* [AWWW_wav_to_spectro.py](#)
+* [AWWW_web.py](#)
+
+## 実行
+
+* [システムと一緒に実行](#)
+
 
 `=========================================================================`
 
@@ -135,3 +163,18 @@ This document is update for the re-build the project and some code explanation f
 * [DIGITS 安裝](#)
 * [DeepQA 安裝](#)
 * [SpeechRecognition 安裝](#)
+
+## 程式碼說明
+
+* [GitHub源與架構](#)
+* [AWWW_chatbot_response.py](#)
+* [AWWW_jiebaCut.py](#)
+* [AWWW_pic_pred.py](#)
+* [AWWW_wav_to_STT.py](#)
+* [AWWW_wav_to_spectro.py](#)
+* [AWWW_web.py](#)
+
+## 使用
+
+* [於系統開機時一起執行](#)
+

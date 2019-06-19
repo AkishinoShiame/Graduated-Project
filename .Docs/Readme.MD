@@ -17,9 +17,9 @@ This document is update for the re-build the project and some code explanation f
 ## Hardware Prepration
 
 - [x] [Intel Core i7-9700K Processor 12M Cache, up to 4.90 GHz](https://ark.intel.com/content/www/us/en/ark/products/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz.html)
-- [x] 16G DDR4 * 2
+- [x] [DDR4 2666 16GB SAMSUNG Original](https://www.amazon.com/dp/B07F6L771D/ref=cm_sw_r_tw_dp_U_x_HRJcDb50SGA5X) * 2
 - [x] [SAMSUNG SSD 970 EVO M.2 SSD 500GB](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/ssd-970-evo-nvme-m2-500gb-mz-v7e500bw/)
-- [x] 2.5inch 2T SATA HDD
+- [x] [Seagate BarraCuda Hard Drive 2TB ST2000LM015](https://www.seagate.com/internal-hard-drives/hdd/barracuda/#specs-2-5)
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/en-us/geforce/graphics-cards/rtx-2080/#specs)
 
 ## OS, API & Specs
@@ -74,9 +74,9 @@ This document is update for the re-build the project and some code explanation f
 ## ハードウェアの準備
 
 - [x] [インテル Core i7-9700K プロセッサー 12M キャッシュ、最大 4.90 GHz](https://ark.intel.com/content/www/jp/ja/ark/products/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz.html)
-- [x] 16G DDR4 * 2
+- [x] [DDR4 2666 16GB SAMSUNG Original](https://www.amazon.co.jp/dp/B07DNS22CR/ref=cm_sw_r_tw_dp_U_x_4NJcDb0SJ5BYC) * 2
 - [x] [SAMSUNG SSD 970 EVO M.2 SSD 500GB](https://www.samsung.com/semiconductor/minisite/jp/ssd/consumer/970evo/#ge_semi_anchor_stand2)
-- [x] 2T ハードディスク・HDD(2.5インチ)
+- [x] [Seagate BarraCudaハードディスク・ドライブ2TB ST2000LM015](https://www.seagate.com/jp/ja/internal-hard-drives/hdd/barracuda/#specs-2-5)
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/ja-jp/geforce/graphics-cards/rtx-2080/#specs)
 
 ## オペレーティングシステム、アプリケーションプログラミングインタフェースとスペック
@@ -131,9 +131,9 @@ This document is update for the re-build the project and some code explanation f
 ## 硬體配置
 
 - [x] [Intel Core i7-9700K 處理器 12M 快取記憶體，最高 4.90 GHz](https://ark.intel.com/content/www/tw/zh/ark/products/186604/intel-core-i7-9700k-processor-12m-cache-up-to-4-90-ghz.html)
-- [x] 16G DDR4 * 2
+- [x] [DDR4 2666 16GB SAMSUNG Original](https://www.samsung.com/semiconductor/dram/module/M378A2K43CB1-CRC/) * 2
 - [x] [SAMSUNG SSD 970 EVO M.2 SSD 500GB](https://www.samsung.com/tw/memory-storage/970-evo-nvme-m2-ssd/MZ-V7E500BW/)
-- [x] 2.5吋 2T SATA 硬碟
+- [x] [Seagate BarraCuda 硬碟機 2TB ST2000LM015](https://www.seagate.com/tw/zh/internal-hard-drives/hdd/barracuda/#specs-2-5)
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/zh-tw/geforce/graphics-cards/rtx-2080/#specs)
 
 ## 作業系統，應用程式介面與規格

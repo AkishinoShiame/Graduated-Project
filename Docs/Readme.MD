@@ -8,6 +8,10 @@ Please select a language below.
 * [インストール説明の更新](#インストール説明の更新)
 * [安裝手冊更新](#安裝手冊更新)
 
+```
+
+```
+
 # Update for Installation Guide
 
 This document is update for the re-build the project and some code explanation for project "AI Kernel".

@@ -24,6 +24,17 @@ This document is update for the re-build the project and some code explanation f
 
 ## OS, API & Specs
 
+* Ubuntu 16.04 LTS x64
+* NVidia CUDA Toolkit 10.1 Update 1 
+* NVidia cuDNN v7.6.0 (May 20, 2019), for CUDA 10.1
+* NVidia DIGITS v6.1.1 (From Github)
+* DeepQA (GitHub - Conchylicultor/DeepQA)
+* Facebook fastText
+* Jieba zh-tw [*already Project build-in]
+* Python Flask
+* Python SpeechRecognition
+* Other relative libraries 
+
 `=========================================================================`
 
 # インストール説明の更新
@@ -40,6 +51,17 @@ This document is update for the re-build the project and some code explanation f
 
 ## オペレーティングシステム、アプリケーションプログラミングインタフェースとスペック
 
+* Ubuntu 16.04 LTS x64
+* NVidia CUDA Toolkit 10.1 Update 1 
+* NVidia cuDNN v7.6.0 (May 20, 2019), for CUDA 10.1
+* NVidia DIGITS v6.1.1 (From Github)
+* DeepQA (GitHub - Conchylicultor/DeepQA)
+* Facebook fastText
+* Jieba zh-tw [*already Project build-in]
+* Python Flask
+* Python SpeechRecognition
+* 他の依存ライブラリ 
+
 `=========================================================================`
 
 # 安裝手冊更新
@@ -55,3 +77,14 @@ This document is update for the re-build the project and some code explanation f
 - [x] [GEFORCE RTX 2080 8 GB GDDR6](https://www.nvidia.com/zh-tw/geforce/graphics-cards/rtx-2080/#specs)
 
 ## 作業系統，應用程式介面與規格
+
+* Ubuntu 16.04 LTS x64
+* NVidia CUDA Toolkit 10.1 Update 1 
+* NVidia cuDNN v7.6.0 (May 20, 2019), for CUDA 10.1
+* NVidia DIGITS v6.1.1 (From Github)
+* DeepQA (GitHub - Conchylicultor/DeepQA)
+* Facebook fastText
+* Jieba zh-tw [*already Project build-in]
+* Python Flask
+* Python SpeechRecognition
+* 其他相依套件

@@ -39,25 +39,25 @@ AI Kernel (Graduated-Project)
 
 ```
 AI Kernel (Graduated-Project) 
-├── Chinese-Speech-Emotion-Datasets    - 
-├── Speech-Dataset-in-scikit-learn    - 
-├── Virtual-Elderly-Chatbot-App    - 
-├── Virtual-Elderly-Chatbot-IOS-Project    - 
-└── Virtual-Elderly-Chatbot-Server-Structure    - 
-     ├── NoTag    - 
-     │     ├── AWWW_chatbot_response.py    - 
-     │     ├── AWWW_jiebaCut.py    - 
-     │     ├── AWWW_pic_pred.py    - 
-     │     ├── AWWW_wav_to_STT.py    - 
-     │     ├── AWWW_wav_to_spectro.py    - 
-     │     └── AWWW_web.py    - 
-     └── WithTag 
-            ├── AWWW_chatbot_response.py    - 
-            ├── AWWW_jiebaCut.py    - 
-            ├── AWWW_pic_pred.py    -    
-            ├── AWWW_wav_to_STT.py    -    
-            ├── AWWW_wav_to_spectro.py    - 
-            └── AWWW_web.py    - 
+├── Chinese-Speech-Emotion-Datasets    - このシステムを使うの訓練資料。　
+├── Speech-Dataset-in-scikit-learn    - scikit-learnのライブラリを使って、研究の為に色んなアルゴリズムを実行する。　
+├── Virtual-Elderly-Chatbot-App    - クライアントのアプリを作る、Unityのプロジェクト。　
+├── Virtual-Elderly-Chatbot-IOS-Project    - UnityのプロジェクトをビルドしたのXcodeプロジェクト。　
+└── Virtual-Elderly-Chatbot-Server-Structure    - このAI Kernelサービスのメインプログラム。　
+     ├── NoTag                        - 普通のチャットボット。　
+     │     ├── AWWW_chatbot_response.py    - チャットボットの返事を出る機能。　
+     │     ├── AWWW_jiebaCut.py    - 中国語の対話を単語するの機能。　
+     │     ├── AWWW_pic_pred.py    - スペクトログラム画像をNVidia DIGITSに感情を分別するの機能。　
+     │     ├── AWWW_wav_to_STT.py    - Google Speech APIを利用して、音声資料を文字に変換する機能。　
+     │     ├── AWWW_wav_to_spectro.py    - NVidia DIGITSを使うために、音声データをスペクトログラム画像に変換する機能。　
+     │     └── AWWW_web.py    - AI kernelのメインウェブサービスのアプリケーションプログラミングインタフェース。　
+     └── WithTag                        - 感情認識が付きのチャットボット。　
+            ├── AWWW_chatbot_response.py    - チャットボットの返事を出る機能。　 
+            ├── AWWW_jiebaCut.py    - 中国語の対話を単語するの機能。　
+            ├── AWWW_pic_pred.py    - スペクトログラム画像をNVidia DIGITSに感情を分別するの機能。　
+            ├── AWWW_wav_to_STT.py    - Google Speech APIを利用して、音声資料を文字に変換する機能。　   
+            ├── AWWW_wav_to_spectro.py    - NVidia DIGITSを使うために、音声データをスペクトログラム画像に変換する機能。　
+            └── AWWW_web.py    - AI kernelのメインウェブサービスのアプリケーションプログラミングインタフェース。　
 ```
 
 ## システムの構造
@@ -77,14 +77,14 @@ AI Kernel (Graduated-Project)
 ├── Virtual-Elderly-Chatbot-App    - 
 ├── Virtual-Elderly-Chatbot-IOS-Project    - 
 └── Virtual-Elderly-Chatbot-Server-Structure    - 
-     ├── NoTag    - 
+     ├── NoTag                        - 
      │     ├── AWWW_chatbot_response.py    - 
      │     ├── AWWW_jiebaCut.py    - 
      │     ├── AWWW_pic_pred.py    - 
      │     ├── AWWW_wav_to_STT.py    - 
      │     ├── AWWW_wav_to_spectro.py    - 
      │     └── AWWW_web.py    - 
-     └── WithTag 
+     └── WithTag                        - 
             ├── AWWW_chatbot_response.py    - 
             ├── AWWW_jiebaCut.py    - 
             ├── AWWW_pic_pred.py    -    

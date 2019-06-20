@@ -13,19 +13,19 @@ import matplotlib.pyplot as plt
 path = "upload/"
 
 def wav2sep(filename):
-    # WAVEファイルから波形データを取得
+    # Get the raw sound data from a WAVE file.
     wf = wave.open("uploads/" + filename, "rb")
     data = wf.readframes(wf.getnframes())
     data = frombuffer(data,dtype="int16")
-    length = float(wf.getnframes()) / wf.getframerate()  # 波形長さ（秒）
+    length = float(wf.getnframes()) / wf.getframerate()  # the langth of the sound（Sec.）
 
-    # FFTのサンプル数
+    # Size of the FFT sample
     N = 512
 
-    # FFTで用いるハミング窓
+    # For FFT used hamming window
     hammingWindow = np.hamming(N)
 
-    # スペクトログラムを描画
+    # Drawing the spectrogram 
     pxx, freqs, bins, im = specgram(data, NFFT=N, Fs=wf.getframerate(), noverlap=0, window=hammingWindow)
     axis('off') # axis([0, length, 0, wf.getframerate() / 2])
     #xlabel("time [second]")
@@ -93,19 +93,19 @@ import matplotlib.pyplot as plt
 path = "upload/"
 
 def wav2sep(filename):
-    # WAVEファイルから波形データを取得
+    # 從WAVE檔中取得聲音/語音的資訊 
     wf = wave.open("uploads/" + filename, "rb")
     data = wf.readframes(wf.getnframes())
     data = frombuffer(data,dtype="int16")
-    length = float(wf.getnframes()) / wf.getframerate()  # 波形長さ（秒）
+    length = float(wf.getnframes()) / wf.getframerate()  # 計算出聲音/語音的長度（秒單位）
 
-    # FFTのサンプル数
+    # FFT的樣本數
     N = 512
 
-    # FFTで用いるハミング窓
+    # FFT所使用的漢明窗函數窗
     hammingWindow = np.hamming(N)
 
-    # スペクトログラムを描画
+    # 進行聲紋圖的描繪
     pxx, freqs, bins, im = specgram(data, NFFT=N, Fs=wf.getframerate(), noverlap=0, window=hammingWindow)
     axis('off') # axis([0, length, 0, wf.getframerate() / 2])
     #xlabel("time [second]")

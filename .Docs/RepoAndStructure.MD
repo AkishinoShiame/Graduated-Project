@@ -29,7 +29,7 @@ AI Kernel (Graduated-Project)
 
 ## System Structure
 
-![alt System Structure](/StructureMap.png)
+![alt System Structure](https://i.imgur.com/l45h0UP.png)
 
 `=================================Separate=Line========================================`
 
@@ -64,7 +64,7 @@ AI Kernel (Graduated-Project)
 
 ## システムの構造
 
-![alt システムの構造](/StructureMap.png)
+![alt システムの構造](https://i.imgur.com/LFFbMR0.png)
 
 `====================================キリ=セン==========================================`
 
@@ -99,4 +99,4 @@ AI Kernel (Graduated-Project)
 
 ## 系統架構
 
-![alt 系統架構](/StructureMap.png)
+![alt 系統架構](https://i.imgur.com/wHAjpPK.png)

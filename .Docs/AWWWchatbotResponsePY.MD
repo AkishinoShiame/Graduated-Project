@@ -1,6 +1,6 @@
 # AWWW_chatbot_response.py English Explane
 
-```python3:AWWW_chatbot_response.py
+```python3
 
 from chatbot import chatbot
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
 # AWWW_chatbot_response.py 日本語説明
 
-```python3:AWWW_chatbot_response.py
+```python3
 
 from chatbot import chatbot
 

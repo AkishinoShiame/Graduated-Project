@@ -53,12 +53,12 @@ This document is update for the re-build the project and some code explanation f
 ## Code description
 
 * [Repo & Structure](RepoAndStructure.MD#repo--structure)
-* [AWWW_chatbot_response.py](#)
-* [AWWW_jiebaCut.py](#)
-* [AWWW_pic_pred.py](#)
-* [AWWW_wav_to_STT.py](#)
-* [AWWW_wav_to_spectro.py](#)
-* [AWWW_web.py](#)
+* [AWWW_chatbot_response.py](AWWWchatbotResponsePY.MD#awww_chatbot_responsepy-english-explane)
+* [AWWW_jiebaCut.py](AWWWjiebaCutPY.MD#awww_jiebacutpy-english-explane)
+* [AWWW_pic_pred.py](AWWWpicRredPY.MD#awww_pic_predpy-english-explane)
+* [AWWW_wav_to_STT.py](AWWWwavToSTTPY.MD#awww_wav_to_sttpy-english-explane)
+* [AWWW_wav_to_spectro.py](AWWWwavToSpectroPY.MD#awww_wav_to_spectropy-english-explane)
+* [AWWW_web.py](AWWWwebPY.MD#awww_webpy-english-explane)
 
 ## Execution
 
@@ -110,12 +110,12 @@ This document is update for the re-build the project and some code explanation f
 ## コードの説明
 
 * [リポジトリと構造](RepoAndStructure.MD#リポジトリと構造)
-* [AWWW_chatbot_response.py](#)
-* [AWWW_jiebaCut.py](#)
-* [AWWW_pic_pred.py](#)
-* [AWWW_wav_to_STT.py](#)
-* [AWWW_wav_to_spectro.py](#)
-* [AWWW_web.py](#)
+* [AWWW_chatbot_response.py](AWWWchatbotResponsePY.MD#awww_chatbot_responsepy-日本語説明)
+* [AWWW_jiebaCut.py](AWWWjiebaCutPY.MD#awww_jiebacutpy-日本語説明)
+* [AWWW_pic_pred.py](AWWWpicRredPY.MD#awww_pic_predpy-日本語説明)
+* [AWWW_wav_to_STT.py](AWWWwavToSTTPY.MD#awww_wav_to_sttpy-日本語説明)
+* [AWWW_wav_to_spectro.py](AWWWwavToSpectroPY.MD#awww_wav_to_spectropy-日本語説明)
+* [AWWW_web.py](AWWWwebPY.MD#awww_webpy-日本語説明)
 
 ## 実行
 
@@ -167,12 +167,12 @@ This document is update for the re-build the project and some code explanation f
 ## 程式碼說明
 
 * [GitHub源與架構](RepoAndStructure.MD#github源與架構)
-* [AWWW_chatbot_response.py](#)
-* [AWWW_jiebaCut.py](#)
-* [AWWW_pic_pred.py](#)
-* [AWWW_wav_to_STT.py](#)
-* [AWWW_wav_to_spectro.py](#)
-* [AWWW_web.py](#)
+* [AWWW_chatbot_response.py](AWWWchatbotResponsePY.MD#awww_chatbot_responsepy-中文解說)
+* [AWWW_jiebaCut.py](AWWWjiebaCutPY.MD#awww_jiebacutpy-中文解說)
+* [AWWW_pic_pred.py](AWWWpicRredPY.MD#awww_pic_predpy-中文解說)
+* [AWWW_wav_to_STT.py](AWWWwavToSTTPY.MD#awww_wav_to_sttpy-中文解說)
+* [AWWW_wav_to_spectro.py](AWWWwavToSpectroPY.MD#awww_wav_to_spectropy-中文解說)
+* [AWWW_web.py](AWWWwebPY.MD#awww_webpy-中文解說)
 
 ## 使用
 

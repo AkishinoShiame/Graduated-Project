@@ -11,20 +11,20 @@ AI Kernel (Graduated-Project)
 ├── Virtual-Elderly-Chatbot-App    - 
 ├── Virtual-Elderly-Chatbot-IOS-Project    - 
 └── Virtual-Elderly-Chatbot-Server-Structure    - 
-       ├── NoTag    - 
-       │     ├── AWWW_chatbot_response.py    - 
-       │     ├── AWWW_jiebaCut.py    - 
-       │     ├── AWWW_pic_pred.py    - 
-       │     ├── AWWW_wav_to_STT.py    - 
-       │     ├── AWWW_wav_to_spectro.py    - 
-       │     └── AWWW_web.py    - 
-       └── WithTag 
-              ├── AWWW_chatbot_response.py    - 
-              ├── AWWW_jiebaCut.py    - 
-              ├── AWWW_pic_pred.py    -    
-              ├── AWWW_wav_to_STT.py    -    
-              ├── AWWW_wav_to_spectro.py    - 
-              └── AWWW_web.py    - 
+     ├── NoTag    - 
+     │     ├── AWWW_chatbot_response.py    - 
+     │     ├── AWWW_jiebaCut.py    - 
+     │     ├── AWWW_pic_pred.py    - 
+     │     ├── AWWW_wav_to_STT.py    - 
+     │     ├── AWWW_wav_to_spectro.py    - 
+     │     └── AWWW_web.py    - 
+     └── WithTag 
+            ├── AWWW_chatbot_response.py    - 
+            ├── AWWW_jiebaCut.py    - 
+            ├── AWWW_pic_pred.py    -    
+            ├── AWWW_wav_to_STT.py    -    
+            ├── AWWW_wav_to_spectro.py    - 
+            └── AWWW_web.py    - 
 ```
 
 ## System Structure

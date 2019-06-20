@@ -72,11 +72,11 @@ AI Kernel (Graduated-Project)
 
 ```
 AI Kernel (Graduated-Project) 
-├── Chinese-Speech-Emotion-Datasets    - 
-├── Speech-Dataset-in-scikit-learn    - 
-├── Virtual-Elderly-Chatbot-App    - 
-├── Virtual-Elderly-Chatbot-IOS-Project    - 
-└── Virtual-Elderly-Chatbot-Server-Structure    - 
+├── Chinese-Speech-Emotion-Datasets    - 此系統所使用的訓練資料集。 
+├── Speech-Dataset-in-scikit-learn    - 調用Python的scikit-learn進行部分演算法訓練，初步研究用。 
+├── Virtual-Elderly-Chatbot-App    - 使用Unity所建置客戶端程式的專案。 
+├── Virtual-Elderly-Chatbot-IOS-Project    - 由Unity編譯與建置出的Xcode專案，為產生IOS手機程式用。
+└── Virtual-Elderly-Chatbot-Server-Structure    - 產生本AI kernel所必須的主程式。
      ├── NoTag                        - 
      │     ├── AWWW_chatbot_response.py    - 
      │     ├── AWWW_jiebaCut.py    - 

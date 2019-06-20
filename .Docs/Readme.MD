@@ -52,7 +52,7 @@ This document is update for the re-build the project and some code explanation f
 
 ## Code description
 
-* [Repo & Structure](#)
+* [Repo & Structure](RepoAndStructure.MD#repo--structure)
 * [AWWW_chatbot_response.py](#)
 * [AWWW_jiebaCut.py](#)
 * [AWWW_pic_pred.py](#)
@@ -109,7 +109,7 @@ This document is update for the re-build the project and some code explanation f
 
 ## コードの説明
 
-* [リポジトリと構造](#)
+* [リポジトリと構造](RepoAndStructure.MD#リポジトリと構造)
 * [AWWW_chatbot_response.py](#)
 * [AWWW_jiebaCut.py](#)
 * [AWWW_pic_pred.py](#)
@@ -166,7 +166,7 @@ This document is update for the re-build the project and some code explanation f
 
 ## 程式碼說明
 
-* [GitHub源與架構](#)
+* [GitHub源與架構](RepoAndStructure.MD#github源與架構)
 * [AWWW_chatbot_response.py](#)
 * [AWWW_jiebaCut.py](#)
 * [AWWW_pic_pred.py](#)

@@ -77,20 +77,20 @@ AI Kernel (Graduated-Project)
 ├── Virtual-Elderly-Chatbot-App    - 使用Unity所建置客戶端程式的專案。 
 ├── Virtual-Elderly-Chatbot-IOS-Project    - 由Unity編譯與建置出的Xcode專案，為產生IOS手機程式用。
 └── Virtual-Elderly-Chatbot-Server-Structure    - 產生本AI kernel所必須的主程式。
-     ├── NoTag                        - 
-     │     ├── AWWW_chatbot_response.py    - 
-     │     ├── AWWW_jiebaCut.py    - 
-     │     ├── AWWW_pic_pred.py    - 
-     │     ├── AWWW_wav_to_STT.py    - 
-     │     ├── AWWW_wav_to_spectro.py    - 
-     │     └── AWWW_web.py    - 
-     └── WithTag                        - 
-            ├── AWWW_chatbot_response.py    - 
-            ├── AWWW_jiebaCut.py    - 
-            ├── AWWW_pic_pred.py    -    
-            ├── AWWW_wav_to_STT.py    -    
-            ├── AWWW_wav_to_spectro.py    - 
-            └── AWWW_web.py    - 
+     ├── NoTag                        - 純粹的聊天機器人。 
+     │     ├── AWWW_chatbot_response.py    - 提供聊天機器人產生回覆的程式。 
+     │     ├── AWWW_jiebaCut.py    - 結巴斷詞，將整個中文句子進行斷詞以供聊天機器人作動。 
+     │     ├── AWWW_pic_pred.py    - 將聲紋圖經由本程式傳至NVidia DIGITS進行情感判別。 
+     │     ├── AWWW_wav_to_STT.py    - 利用Google Speech API所提供的服務進行語音轉文字的功能。 
+     │     ├── AWWW_wav_to_spectro.py    - 將錄製的語音檔轉換成聲紋圖給NVidia DIGITS使用的功能。 
+     │     └── AWWW_web.py    - 產AI kernel的主要API服務的網頁伺服器主程式。 
+     └── WithTag                        - 具備感情偵測的聊天機器人。 
+            ├── AWWW_chatbot_response.py    - 提供聊天機器人產生回覆的程式。 
+            ├── AWWW_jiebaCut.py    - 結巴斷詞，將整個中文句子進行斷詞以供聊天機器人作動。 
+            ├── AWWW_pic_pred.py    - 將聲紋圖經由本程式傳至NVidia DIGITS進行情感判別。 
+            ├── AWWW_wav_to_STT.py    - 利用Google Speech API所提供的服務進行語音轉文字的功能。
+            ├── AWWW_wav_to_spectro.py    - 將錄製的語音檔轉換成聲紋圖給NVidia DIGITS使用的功能。 
+            └── AWWW_web.py    - 產AI kernel的主要API服務的網頁伺服器主程式。 
 ```
 
 ## 系統架構

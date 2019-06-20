@@ -16,14 +16,14 @@ AI Kernel (Graduated-Project)
      │     ├── AWWW_jiebaCut.py    - Function of sentence split to words applied on Chinese language.
      │     ├── AWWW_pic_pred.py    - Function of speech spectrogram for NVidia DIGITS to predict the emotions. 
      │     ├── AWWW_wav_to_STT.py    - Function of using Google Speech API to perform speech to text job. 
-     │     ├── AWWW_wav_to_spectro.py    - Function of making wav speech sound to spectrogram for NVidia DIGITS input. 
+     │     ├── AWWW_wav_to_spectro.py    - Function of making wav speech sound to spectrogram for NVidia DIGITS. 
      │     └── AWWW_web.py    - Main web server for AI kernel API.
      └── WithTag                        - The emotion added ChatBot.  
             ├── AWWW_chatbot_response.py    - Function of chatbot interaction reply. 
             ├── AWWW_jiebaCut.py    - Function of sentence split to words applied on Chinese language. 
             ├── AWWW_pic_pred.py    - Function of speech spectrogram for NVidia DIGITS to predict the emotions.    
             ├── AWWW_wav_to_STT.py    - Function of using Google Speech API to perform speech to text job.    
-            ├── AWWW_wav_to_spectro.py    - Function of making wav speech sound to spectrogram for NVidia DIGITS input. 
+            ├── AWWW_wav_to_spectro.py    - Function of making wav speech sound to spectrogram for NVidia DIGITS. 
             └── AWWW_web.py    - Main web server for AI kernel API.
 ```
 

@@ -2,45 +2,39 @@
 
 ```python
 
-#!/usr/bin/env python3
-# Requires PyAudio and PySpeech.
+# coding:utf-8
+import wave
+import matplotlib
+matplotlib.use('Agg')
+from pylab import *
+import os
+import matplotlib.pyplot as plt
 
-import speech_recognition as sr
-from os import path
+path = "upload/"
 
+def wav2sep(filename):
+    # Get the raw sound data from a WAVE file.
+    wf = wave.open("uploads/" + filename, "rb")
+    data = wf.readframes(wf.getnframes())
+    data = frombuffer(data,dtype="int16")
+    length = float(wf.getnframes()) / wf.getframerate()  # the langth of the sound（Sec.）
 
-def input_filename (filename):
-    # Read from wav
-    AUDIO_FILE = path.join(path.join(path.dirname(path.realpath(__file__)), "uploads/" ), filename)
+    # Size of the FFT sample
+    N = 512
 
+    # For FFT used hamming window
+    hammingWindow = np.hamming(N)
 
-    r = sr.Recognizer()
-    """
-    with sr.Microphone() as source:
-        print("Say something!")
-        audio = r.listen(source)
-    """
-    # audio = wave.open(filename, "rb")
-    print(AUDIO_FILE)
-    with sr.AudioFile(AUDIO_FILE) as source:
-        audio = r.record(source)  # read the entire audio file
-
-    # Speech recognition using Google Speech Recognition
-    try:
-        # for testing purposes, we're just using the default API key
-        # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
-        # instead of `r.recognize_google(audio)`
-        #print("You said: " + r.recognize_google(audio, language='zh-TW'))
-        return r.recognize_google(audio, language='zh-TW')
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-    except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
-#    return r.recognize_google(audio, language='zh-TW')
-"""
-if __name__ == "__main__":
-    input_filename("test.wav")
-"""
+    # Drawing the spectrogram 
+    pxx, freqs, bins, im = specgram(data, NFFT=N, Fs=wf.getframerate(), noverlap=0, window=hammingWindow)
+    axis('off') # axis([0, length, 0, wf.getframerate() / 2])
+    #xlabel("time [second]")
+    #ylabel("frequency [Hz]")
+    subplots_adjust(bottom=0)
+    subplots_adjust(top=1)
+    subplots_adjust(right=1)
+    subplots_adjust(left=0)
+    plt.savefig('test.jpg')
 
 ```
 
@@ -48,45 +42,39 @@ if __name__ == "__main__":
 
 ```python
 
-#!/usr/bin/env python3
-# Requires PyAudio and PySpeech.
+# coding:utf-8
+import wave
+import matplotlib
+matplotlib.use('Agg')
+from pylab import *
+import os
+import matplotlib.pyplot as plt
 
-import speech_recognition as sr
-from os import path
+path = "upload/"
 
+def wav2sep(filename):
+    # WAVEファイルから波形データを取得
+    wf = wave.open("uploads/" + filename, "rb")
+    data = wf.readframes(wf.getnframes())
+    data = frombuffer(data,dtype="int16")
+    length = float(wf.getnframes()) / wf.getframerate()  # 波形長さ（秒）
 
-def input_filename (filename):
-    # Read from wav
-    AUDIO_FILE = path.join(path.join(path.dirname(path.realpath(__file__)), "uploads/" ), filename)
+    # FFTのサンプル数
+    N = 512
 
+    # FFTで用いるハミング窓
+    hammingWindow = np.hamming(N)
 
-    r = sr.Recognizer()
-    """
-    with sr.Microphone() as source:
-        print("Say something!")
-        audio = r.listen(source)
-    """
-    # audio = wave.open(filename, "rb")
-    print(AUDIO_FILE)
-    with sr.AudioFile(AUDIO_FILE) as source:
-        audio = r.record(source)  # read the entire audio file
-
-    # Speech recognition using Google Speech Recognition
-    try:
-        # for testing purposes, we're just using the default API key
-        # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
-        # instead of `r.recognize_google(audio)`
-        #print("You said: " + r.recognize_google(audio, language='zh-TW'))
-        return r.recognize_google(audio, language='zh-TW')
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-    except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
-#    return r.recognize_google(audio, language='zh-TW')
-"""
-if __name__ == "__main__":
-    input_filename("test.wav")
-"""
+    # スペクトログラムを描画
+    pxx, freqs, bins, im = specgram(data, NFFT=N, Fs=wf.getframerate(), noverlap=0, window=hammingWindow)
+    axis('off') # axis([0, length, 0, wf.getframerate() / 2])
+    #xlabel("time [second]")
+    #ylabel("frequency [Hz]")
+    subplots_adjust(bottom=0)
+    subplots_adjust(top=1)
+    subplots_adjust(right=1)
+    subplots_adjust(left=0)
+    plt.savefig('test.jpg')
 
 ```
 
@@ -94,44 +82,38 @@ if __name__ == "__main__":
 
 ```python
 
-#!/usr/bin/env python3
-# Requires PyAudio and PySpeech.
+# coding:utf-8
+import wave
+import matplotlib
+matplotlib.use('Agg')
+from pylab import *
+import os
+import matplotlib.pyplot as plt
 
-import speech_recognition as sr
-from os import path
+path = "upload/"
 
+def wav2sep(filename):
+    # 從WAVE檔中取得聲音/語音的資訊 
+    wf = wave.open("uploads/" + filename, "rb")
+    data = wf.readframes(wf.getnframes())
+    data = frombuffer(data,dtype="int16")
+    length = float(wf.getnframes()) / wf.getframerate()  # 計算出聲音/語音的長度（秒單位）
 
-def input_filename (filename):
-    # Read from wav
-    AUDIO_FILE = path.join(path.join(path.dirname(path.realpath(__file__)), "uploads/" ), filename)
+    # FFT的樣本數
+    N = 512
 
+    # FFT所使用的漢明窗函數窗
+    hammingWindow = np.hamming(N)
 
-    r = sr.Recognizer()
-    """
-    with sr.Microphone() as source:
-        print("Say something!")
-        audio = r.listen(source)
-    """
-    # audio = wave.open(filename, "rb")
-    print(AUDIO_FILE)
-    with sr.AudioFile(AUDIO_FILE) as source:
-        audio = r.record(source)  # read the entire audio file
-
-    # Speech recognition using Google Speech Recognition
-    try:
-        # for testing purposes, we're just using the default API key
-        # to use another API key, use `r.recognize_google(audio, key="GOOGLE_SPEECH_RECOGNITION_API_KEY")`
-        # instead of `r.recognize_google(audio)`
-        #print("You said: " + r.recognize_google(audio, language='zh-TW'))
-        return r.recognize_google(audio, language='zh-TW')
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-    except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
-#    return r.recognize_google(audio, language='zh-TW')
-"""
-if __name__ == "__main__":
-    input_filename("test.wav")
-"""
+    # 進行聲紋圖的描繪
+    pxx, freqs, bins, im = specgram(data, NFFT=N, Fs=wf.getframerate(), noverlap=0, window=hammingWindow)
+    axis('off') # axis([0, length, 0, wf.getframerate() / 2])
+    #xlabel("time [second]")
+    #ylabel("frequency [Hz]")
+    subplots_adjust(bottom=0)
+    subplots_adjust(top=1)
+    subplots_adjust(right=1)
+    subplots_adjust(left=0)
+    plt.savefig('test.jpg')
 
 ```

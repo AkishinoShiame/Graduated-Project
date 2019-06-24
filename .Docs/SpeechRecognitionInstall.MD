@@ -12,6 +12,8 @@ Successfully installed SpeechRecognition-3.8.1
 root@HOSTNAME:~# 
 ```
 
+`============================================================================================`
+
 # SpeechRecognitionのインストール
 
 コマンド`pip3`を使って、SpeechRecognitionのPythonライブラリをインストールする：`~# pip3 install SpeechRecognition`
@@ -25,6 +27,8 @@ Installing collected packages: SpeechRecognition
 Successfully installed SpeechRecognition-3.8.1
 root@HOSTNAME:~# 
 ```
+
+`============================================================================================`
 
 # SpeechRecognition 安裝
 

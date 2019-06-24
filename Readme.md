@@ -42,3 +42,7 @@ The beta release of this project will finished after the documentation done.
 Now keep updating...(70%)
 
 Read the Document from [Here](.Docs#content--%E7%9B%AE%E6%AC%A1--%E7%9B%AE%E9%8C%84)
+
+## Video DEMO
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wqTBv9_8EjE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

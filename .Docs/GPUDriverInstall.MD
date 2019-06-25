@@ -102,7 +102,29 @@ root@HOSTNAME:~#
 
 And then we can start install the corrispond GPU driver by issue `~# ubuntu-drivers autoinstall` command.
 
-After the installation donw, use `~# nvidia-smi` to check the result. 
+After the installation done, use `~# nvidia-smi` to check the result.
+
+```bash
+root@HOSTNAME:~# nvidia-smi
+Wed Jun 19 15:35:03 2019
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.14       Driver Version: 430.14       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 2080    Off  | 00000000:01:00.0 Off |                  N/A |
+| 25%   32C    P8    18W / 215W |    125MiB /  7979MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1156      C   python2                                      115MiB |
++-----------------------------------------------------------------------------+
+root@HOSTNAME:~# 
+``` 
 
 # GPU Driverのインストール
 

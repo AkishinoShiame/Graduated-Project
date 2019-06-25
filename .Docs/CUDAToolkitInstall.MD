@@ -188,11 +188,11 @@ root@HOSTNAME:~#
 
 # CUDA Toolkitのインストール
 
->The installation will mostly follow the official instrouction.
+このインストールの手順は公式サイトを基準で使えます。
 
->The official sites can be found from [here](https://developer.nvidia.com/cuda-downloads).
+公式サイトは[ここ](https://developer.nvidia.com/cuda-downloads)にいます。
 
->First we need to download the install file from official using `wget`.
+初めての手順は`wget``wget`を使って、パケージをダウンロードをする。
 
 ```bash
 root@HOSTNAME:~# wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_10.1.168-1_amd64.deb
@@ -210,7 +210,7 @@ cuda-repo-ubuntu1604_10.1 100%[=====================================>]   2.78K  
 root@HOSTNAME:~#
 ```
 
->And we follow the official instrouction to read the .deb file with `~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb`.
+そうしてここは公式の手順で、インストールの.debファイルを`~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb`コマンドを使う。
 
 ```bash
 root@HOSTNAME:~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb
@@ -226,7 +226,7 @@ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/
 root@HOSTNAME:~#
 ```
 
->Now, needs to fetch the keys to ensure the source and continue download package are correct, with `~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`.
+そうして、指示にはキーを対応が必要ですから`~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`このコマンドを使って、対応する。
 
 ```bash
 root@HOSTNAME:~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
@@ -238,7 +238,7 @@ gpg:               インポート: 1  (RSA: 1)
 root@HOSTNAME:~#
 ```
 
->Now we can update the repository list for the softwares as `~# apt update`.
+これからはレポジトリリストを更新ができます：`~# apt update`.
 
 ```bash
 root@HOSTNAME:~# apt update
@@ -255,7 +255,7 @@ root@HOSTNAME:~# apt update
 root@HOSTNAME:~#
 ```
 
->Finally install the cuda toolkit with `~# apt install -y cuda-toolkit-10-1` command. And do not use cuda only if you knows what you are doing.
+最後は`~# apt install -y cuda-toolkit-10-1`コマンドを使って、Cuda-Toolkitをインストールする。ちなみに、cudaのコマンドを使わないでください、もしそのコマンドの動く基準がわからないなら。
 
 ```bash
 root@HOSTNAME:~# apt install -y cuda-toolkit-10-1
@@ -374,11 +374,11 @@ root@HOSTNAME:~#
 
 # CUDA Toolkit 安裝
 
->The installation will mostly follow the official instrouction.
+本文件為參照官方文件進行改良後的安裝步驟。
 
->The official sites can be found from [here](https://developer.nvidia.com/cuda-downloads).
+官方網頁可由[此處](https://developer.nvidia.com/cuda-downloads)進行確認。
 
->First we need to download the install file from official using `wget`.
+第一步是使用`wget`下載官方所提供的網路安裝包。(離線安裝包依然會進行連線取得所以直接採用線上安裝)
 
 ```bash
 root@HOSTNAME:~# wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_10.1.168-1_amd64.deb
@@ -396,7 +396,7 @@ cuda-repo-ubuntu1604_10.1 100%[=====================================>]   2.78K  
 root@HOSTNAME:~#
 ```
 
->And we follow the official instrouction to read the .deb file with `~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb`.
+接下來要使用系統的套件管理程式進行安裝檔設定，使用`~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb`指令。
 
 ```bash
 root@HOSTNAME:~# dpkg -i cuda-repo-ubuntu1604_10.1.168-1_amd64.deb
@@ -412,7 +412,7 @@ sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/
 root@HOSTNAME:~#
 ```
 
->Now, needs to fetch the keys to ensure the source and continue download package are correct, with `~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`.
+根據上述指令執行結果提示，必須再下載相關RSA金鑰做檔案正確信檢查。執行：`~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub`。
 
 ```bash
 root@HOSTNAME:~# apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
@@ -424,7 +424,7 @@ gpg:               已匯入: 1  (RSA: 1)
 root@HOSTNAME:~#
 ```
 
->Now we can update the repository list for the softwares as `~# apt update`.
+接著才可以進行可安裝套件清單的更新：`~# apt update`。
 
 ```bash
 root@HOSTNAME:~# apt update
@@ -441,7 +441,7 @@ All packages are up to date.
 root@HOSTNAME:~#
 ```
 
->Finally install the cuda toolkit with `~# apt install -y cuda-toolkit-10-1` command. And do not use cuda only if you knows what you are doing.
+最後即可開始安裝Cuda-Toolkit，使用`~# apt install -y cuda-toolkit-10-1`指令進行安裝。 切勿使用install cuda進行安裝，除非你能理解cuda本身包含哪些套件。
 
 ```bash
 root@HOSTNAME:~# apt install -y cuda-toolkit-10-1

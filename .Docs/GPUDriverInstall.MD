@@ -81,6 +81,29 @@ OK
 root@HOSTNAME:~#
 ```
 
+Then we need to issue `~# apt update` to refresh the list of what packages can be installed.
+
+```bash
+root@HOSTNAME:~# apt update
+Get:1 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial InRelease [24.3 kB]
+Hit:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+Hit:3 http://security.ubuntu.com/ubuntu xenial-security InRelease
+Get:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:5 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:6 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial/main amd64 Packages [14.9 kB]
+Get:7 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial/main Translation-en [4,572 B]
+Fetched 260 kB in 7s (34.6 kB/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+42 packages can be upgraded. Run 'apt list --upgradable' to see them.
+root@HOSTNAME:~#
+```
+
+And then we can start install the corrispond GPU driver by issue `~# ubuntu-drivers autoinstall` command.
+
+After the installation donw, use `~# nvidia-smi` to check the result. 
+
 # GPU Driverのインストール
 
 # GPU Driver 安裝

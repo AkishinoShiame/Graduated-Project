@@ -1,6 +1,6 @@
 # GPU Driver Install
 
-It is suggest to add official compitable ppa fo graphics-drivers install.
+It is suggest to add official compatible ppa fo graphics-drivers install.
 
 It only tested with NVidia GPU in this project.
 
@@ -127,5 +127,131 @@ root@HOSTNAME:~#
 ``` 
 
 # GPU Driverのインストール
+
+お勧めのインストール方法は公式から互換性が良いのPPA(ソフトウェアソース)をシステムに追加する。そうすると、最も良いなグラフィックスドライバーがインストールできます。
+
+この方法はこのプロジェクトによってNVidiaのGPUが試しただけ。
+
+このコマンド`~# add-apt-repository ppa:graphics-drivers/ppa`を使って、レポジトリを追加する.
+
+```bash
+root@HOSTNAME:~#  add-apt-repository ppa:graphics-drivers/ppa
+ Fresh drivers from upstream, currently shipping Nvidia.
+
+## Current Status
+
+Current long-lived branch release: `nvidia-410` (410.66)
+Dropped support for Fermi series (https://nvidia.custhelp.com/app/answers/detail/a_id/4656)
+
+Old long-lived branch release: `nvidia-390` (390.87)
+
+For GF1xx GPUs use `nvidia-390` (390.87)
+For G8x, G9x and GT2xx GPUs use `nvidia-340` (340.107)
+For NV4x and G7x GPUs use `nvidia-304` (304.137) End-Of-Life!
+
+Support timeframes for Unix legacy GPU releases:
+https://nvidia.custhelp.com/app/answers/detail/a_id/3142
+
+## What we're working on right now:
+
+- Normal driver updates
+- Help Wanted: Mesa Updates for Intel/AMD users, ping us if you want to help do this work, we're shorthanded.
+
+## WARNINGS:
+
+This PPA is currently in testing, you should be experienced with packaging before you dive in here:
+
+Volunteers welcome!
+
+### How you can help:
+
+## Install PTS and benchmark your gear:
+
+    sudo apt-get install phoronix-test-suite
+
+Run the benchmark:
+
+    phoronix-test-suite default-benchmark openarena xonotic tesseract gputest unigine-valley
+
+and then say yes when it asks you to submit your results to openbechmarking.org. Then grab a cup of coffee, it takes a bit for the benchmarks to run. Depending on the version of Ubuntu you're using it might preferable for you to grabs PTS from upstream directly: http://www.phoronix-test-suite.com/?k=downloads
+
+## Share your results with the community:
+
+Post a link to your results (or any other feedback to): https://launchpad.net/~graphics-drivers-testers
+
+Remember to rerun and resubmit the benchmarks after driver upgrades, this will allow us to gather a bunch of data on performance that we can share with everybody.
+
+If you run into old documentation referring to other PPAs, you can help us by consolidating references to this PPA.
+
+If someone wants to go ahead and start prototyping on `software-properties-gtk` on what the GUI should look like, please start hacking!
+
+## Help us Help You!
+
+We use the donation funds to get the developers hardware to test and upload these drivers, please consider donating to the "community" slider on the donation page if you're loving this PPA:
+
+http://www.ubuntu.com/download/desktop/contribute
+ 詳しい情報: https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+[ENTER] を押すと続行します。ctrl-c で追加をキャンセルできます
+```
+
+指示を見ると、<kbd>Enter ⏎</kbd>キーを押す、追加を確認する。
+
+```bash
+gpg: 鍵リング「/tmp/tmpk6s75n3d/secring.gpg」ができました
+gpg: 鍵リング「/tmp/tmpk6s75n3d/pubring.gpg」ができました
+gpg: 鍵1118213Cをhkpからサーバkeyserver.ubuntu.comに要求
+gpg: /tmp/tmpk6s75n3d/trustdb.gpg: 信用データベースができました
+gpg: 鍵1118213C: 公開鍵"Launchpad PPA for Graphics Drivers Team"をインポートしました
+gpg: 究極的に信用する鍵が見つかりません
+gpg: 処理数の合計: 1
+gpg:               インポート: 1  (RSA: 1)
+OK
+root@HOSTNAME:~#
+```
+
+後は `~# apt update`を使って、インストールできるのパケージリストを更新する。
+
+```bash
+root@HOSTNAME:~# apt update
+取得:1 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial InRelease [24.3 kB]
+ヒット:2 http://archive.ubuntu.com/ubuntu xenial InRelease
+取得:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+取得:4 http://archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+取得:5 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial/main amd64 Packages [14.9 kB]
+取得:6 http://archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+取得:7 http://ppa.launchpad.net/graphics-drivers/ppa/ubuntu xenial/main Translation-en [4,572 B]
+369 kB を 5秒 で取得しました (68.2 kB/s)
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています
+状態情報を読み取っています... 完了
+アップグレードできるパッケージが 42 個あります。表示するには 'apt list --upgradable' を実行してください 。
+root@HOSTNAME:~#
+```
+
+今からNVidiaのドライバーをインストールするが可能です。GPUハードウェアが対応のドライバーは`~# ubuntu-drivers autoinstall`コマンドを使って、最適なドライバーをインストールする。
+
+インストール完了すると、`~# nvidia-smi`をインストール結果を検査する。
+
+```bash
+root@HOSTNAME:~# nvidia-smi
+Wed Jun 19 15:35:03 2019
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 430.14       Driver Version: 430.14       CUDA Version: 10.2     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  GeForce RTX 2080    Off  | 00000000:01:00.0 Off |                  N/A |
+| 25%   32C    P8    18W / 215W |    125MiB /  7979MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0      1156      C   python2                                      115MiB |
++-----------------------------------------------------------------------------+
+root@HOSTNAME:~# 
+``` 
 
 # GPU Driver 安裝

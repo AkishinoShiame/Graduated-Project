@@ -111,8 +111,230 @@ Finally build & install.
 ~# mkdir build
 ~# cd build
 ~# cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_CXX11 (check file: cmake/checks/cxx11.cpp)
+-- Performing Test HAVE_CXX11 - Failed
+-- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.12", minimum required is "2.7")
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable exact version "2.7.12")
+...
+-- Performing Test HAVE_C_WNO_UNDEF - Success
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+-- OpenCV Python: during development append to PYTHONPATH: /root/opencv-3.4.6/build/python_loader
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+--
+-- General configuration for OpenCV 3.4.6 =====================================
+--   Version control:               unknown
+--
+--   Platform:
+--     Timestamp:                   2019-06-26T04:15:40Z
+--     Host:                        Linux 4.4.0-18362-Microsoft x86_64
+--     CMake:                       3.5.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+--
+--   CPU/HW features:
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (14 files):         + SSSE3 SSE4_1
+--       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (6 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (28 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (2 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_SKX
+--
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /usr/bin/c++  (ver 5.4.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--gc-sections
+--     Linker flags (Debug):        -Wl,--gc-sections
+--     ccache:                      NO
+--     Precompiled headers:         YES
+--     Extra dependencies:          dl m pthread rt
+--     3rdparty dependencies:
+--
+--   OpenCV modules:
+--     To be built:                 calib3d core dnn features2d flann highgui imgcodecs imgproc ml objdetect photo python2 shape stitching superres ts video videoio videostab
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java js python3 viz
+--     Applications:                tests perf_tests apps
+--     Documentation:               NO
+--     Non-free algorithms:         NO
+--
+--   GUI:
+--     GTK+:                        YES (ver 2.24.30)
+--       GThread :                  YES (ver 2.48.2)
+--       GtkGlExt:                  NO
+--     VTK support:                 NO
+--
+--   Media I/O:
+--     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.8)
+--     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+--     WEBP:                        build (ver encoder: 0x020e)
+--     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.2.54)
+--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.0.6)
+--     JPEG 2000:                   /usr/lib/x86_64-linux-gnu/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--
+--   Video I/O:
+--     DC1394:                      YES (ver 2.2.4)
+--     FFMPEG:                      YES
+--       avcodec:                   YES (ver 56.60.100)
+--       avformat:                  YES (ver 56.40.101)
+--       avutil:                    YES (ver 54.31.100)
+--       swscale:                   YES (ver 3.1.101)
+--       avresample:                NO
+--     GStreamer:                   NO
+--     libv4l/libv4l2:              NO
+--     v4l/v4l2:                    linux/videodev2.h
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2019.0.0 Gold [2019.0.0]
+--            at:                   /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2019.0.0)
+--               at:                /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/iw
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /root/opencv-3.4.6/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 2:
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+--     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)
+--     install path:                lib/python2.7/dist-packages/cv2/python-2.7
+--
+--   Python (for build):            /usr/bin/python2.7
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/opencv-3.4.6/build
 ~# make -j7
+Scanning dependencies of target gen-pkgconfig
+Scanning dependencies of target libwebp
+Scanning dependencies of target ippiw
+Scanning dependencies of target quirc
+Scanning dependencies of target libprotobuf
+Scanning dependencies of target ittnotify
+Scanning dependencies of target IlmImf
+[  0%] Generate opencv.pc
+[  0%] Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_core.c.o
+[  1%] Building C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
+[  1%] Built target gen-pkgconfig
+[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/alpha_dec.c.o
+[  1%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Half/half.cpp.o
+Scanning dependencies of target opencv_core_pch_dephelp
+[  2%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image.c.o
+[  2%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o
+...
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_inner_functions.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_tree.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_test_calib3d
+[ 99%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.ssse3.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_1.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
+[ 99%] Built target opencv_test_calib3d
+Scanning dependencies of target opencv_python2
+[ 99%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 99%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+[ 99%] Built target opencv_test_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_2.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
+[ 99%] Built target opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.fp16.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 99%] Built target opencv_perf_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx2.cpp.o
+[100%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx2.cpp.o
+[100%] Linking CXX executable ../../bin/opencv_test_core
+[100%] Built target opencv_test_core
+[100%] Linking CXX shared module ../../lib/cv2.so
+[100%] Built target opencv_python2
 ~# make install
+[  0%] Built target gen-pkgconfig
+[  9%] Built target libwebp
+[ 14%] Built target IlmImf
+[ 16%] Built target ippiw
+[ 21%] Built target libprotobuf
+[ 22%] Built target quirc
+[ 23%] Built target ittnotify
+[ 23%] Built target opencv_core_pch_dephelp
+[ 24%] Built target pch_Generate_opencv_core
+[ 32%] Built target opencv_core
+[ 32%] Built target opencv_perf_core_pch_dephelp
+...
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /usr/local/bin/opencv_traincascade
+-- Set runtime path of "/usr/local/bin/opencv_traincascade" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_createsamples
+-- Set runtime path of "/usr/local/bin/opencv_createsamples" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_annotation
+-- Set runtime path of "/usr/local/bin/opencv_annotation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_visualisation
+-- Set runtime path of "/usr/local/bin/opencv_visualisation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_interactive-calibration
+-- Set runtime path of "/usr/local/bin/opencv_interactive-calibration" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_version
+-- Set runtime path of "/usr/local/bin/opencv_version" to "/usr/local/lib"
 ```
 
 # OpenCVのインストール
@@ -228,8 +450,230 @@ root@HOSTNAME:~#
 ~# mkdir build
 ~# cd build
 ~# cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_CXX11 (check file: cmake/checks/cxx11.cpp)
+-- Performing Test HAVE_CXX11 - Failed
+-- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.12", minimum required is "2.7")
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable exact version "2.7.12")
+～中略～
+-- Performing Test HAVE_C_WNO_UNDEF - Success
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+-- OpenCV Python: during development append to PYTHONPATH: /root/opencv-3.4.6/build/python_loader
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+--
+-- General configuration for OpenCV 3.4.6 =====================================
+--   Version control:               unknown
+--
+--   Platform:
+--     Timestamp:                   2019-06-26T04:15:40Z
+--     Host:                        Linux 4.4.0-18362-Microsoft x86_64
+--     CMake:                       3.5.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+--
+--   CPU/HW features:
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (14 files):         + SSSE3 SSE4_1
+--       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (6 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (28 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (2 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_SKX
+--
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /usr/bin/c++  (ver 5.4.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--gc-sections
+--     Linker flags (Debug):        -Wl,--gc-sections
+--     ccache:                      NO
+--     Precompiled headers:         YES
+--     Extra dependencies:          dl m pthread rt
+--     3rdparty dependencies:
+--
+--   OpenCV modules:
+--     To be built:                 calib3d core dnn features2d flann highgui imgcodecs imgproc ml objdetect photo python2 shape stitching superres ts video videoio videostab
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java js python3 viz
+--     Applications:                tests perf_tests apps
+--     Documentation:               NO
+--     Non-free algorithms:         NO
+--
+--   GUI:
+--     GTK+:                        YES (ver 2.24.30)
+--       GThread :                  YES (ver 2.48.2)
+--       GtkGlExt:                  NO
+--     VTK support:                 NO
+--
+--   Media I/O:
+--     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.8)
+--     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+--     WEBP:                        build (ver encoder: 0x020e)
+--     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.2.54)
+--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.0.6)
+--     JPEG 2000:                   /usr/lib/x86_64-linux-gnu/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--
+--   Video I/O:
+--     DC1394:                      YES (ver 2.2.4)
+--     FFMPEG:                      YES
+--       avcodec:                   YES (ver 56.60.100)
+--       avformat:                  YES (ver 56.40.101)
+--       avutil:                    YES (ver 54.31.100)
+--       swscale:                   YES (ver 3.1.101)
+--       avresample:                NO
+--     GStreamer:                   NO
+--     libv4l/libv4l2:              NO
+--     v4l/v4l2:                    linux/videodev2.h
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2019.0.0 Gold [2019.0.0]
+--            at:                   /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2019.0.0)
+--               at:                /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/iw
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /root/opencv-3.4.6/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 2:
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+--     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)
+--     install path:                lib/python2.7/dist-packages/cv2/python-2.7
+--
+--   Python (for build):            /usr/bin/python2.7
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/opencv-3.4.6/build
 ~# make -j7
+Scanning dependencies of target gen-pkgconfig
+Scanning dependencies of target libwebp
+Scanning dependencies of target ippiw
+Scanning dependencies of target quirc
+Scanning dependencies of target libprotobuf
+Scanning dependencies of target ittnotify
+Scanning dependencies of target IlmImf
+[  0%] Generate opencv.pc
+[  0%] Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_core.c.o
+[  1%] Building C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
+[  1%] Built target gen-pkgconfig
+[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/alpha_dec.c.o
+[  1%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Half/half.cpp.o
+Scanning dependencies of target opencv_core_pch_dephelp
+[  2%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image.c.o
+[  2%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o
+～中略～
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_inner_functions.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_tree.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_test_calib3d
+[ 99%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.ssse3.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_1.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
+[ 99%] Built target opencv_test_calib3d
+Scanning dependencies of target opencv_python2
+[ 99%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 99%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+[ 99%] Built target opencv_test_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_2.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
+[ 99%] Built target opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.fp16.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 99%] Built target opencv_perf_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx2.cpp.o
+[100%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx2.cpp.o
+[100%] Linking CXX executable ../../bin/opencv_test_core
+[100%] Built target opencv_test_core
+[100%] Linking CXX shared module ../../lib/cv2.so
+[100%] Built target opencv_python2
 ~# make install
+[  0%] Built target gen-pkgconfig
+[  9%] Built target libwebp
+[ 14%] Built target IlmImf
+[ 16%] Built target ippiw
+[ 21%] Built target libprotobuf
+[ 22%] Built target quirc
+[ 23%] Built target ittnotify
+[ 23%] Built target opencv_core_pch_dephelp
+[ 24%] Built target pch_Generate_opencv_core
+[ 32%] Built target opencv_core
+[ 32%] Built target opencv_perf_core_pch_dephelp
+～中略～
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /usr/local/bin/opencv_traincascade
+-- Set runtime path of "/usr/local/bin/opencv_traincascade" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_createsamples
+-- Set runtime path of "/usr/local/bin/opencv_createsamples" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_annotation
+-- Set runtime path of "/usr/local/bin/opencv_annotation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_visualisation
+-- Set runtime path of "/usr/local/bin/opencv_visualisation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_interactive-calibration
+-- Set runtime path of "/usr/local/bin/opencv_interactive-calibration" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_version
+-- Set runtime path of "/usr/local/bin/opencv_version" to "/usr/local/lib"
 ```
 
 # OpenCV 安裝
@@ -347,6 +791,228 @@ root@HOSTNAME:~#
 ~# mkdir build
 ~# cd build
 ~# cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Performing Test HAVE_CXX11 (check file: cmake/checks/cxx11.cpp)
+-- Performing Test HAVE_CXX11 - Failed
+-- Found PythonInterp: /usr/bin/python2.7 (found suitable version "2.7.12", minimum required is "2.7")
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable exact version "2.7.12")
+～略～
+-- Performing Test HAVE_C_WNO_UNDEF - Success
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE
+-- Performing Test HAVE_C_WNO_SIGN_COMPARE - Success
+-- OpenCV Python: during development append to PYTHONPATH: /root/opencv-3.4.6/build/python_loader
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL
+-- Performing Test HAVE_CXX_WNO_OVERLOADED_VIRTUAL - Success
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD
+-- Performing Test HAVE_CXX_WNO_UNUSED_PRIVATE_FIELD - Failed
+--
+-- General configuration for OpenCV 3.4.6 =====================================
+--   Version control:               unknown
+--
+--   Platform:
+--     Timestamp:                   2019-06-26T04:15:40Z
+--     Host:                        Linux 4.4.0-18362-Microsoft x86_64
+--     CMake:                       3.5.1
+--     CMake generator:             Unix Makefiles
+--     CMake build tool:            /usr/bin/make
+--     Configuration:               Release
+--
+--   CPU/HW features:
+--     Baseline:                    SSE SSE2 SSE3
+--       requested:                 SSE3
+--     Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+--       requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+--       SSE4_1 (14 files):         + SSSE3 SSE4_1
+--       SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+--       FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+--       AVX (6 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+--       AVX2 (28 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+--       AVX512_SKX (2 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_SKX
+--
+--   C/C++:
+--     Built as dynamic libs?:      YES
+--     C++ Compiler:                /usr/bin/c++  (ver 5.4.0)
+--     C++ flags (Release):         -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -O3 -DNDEBUG  -DNDEBUG
+--     C++ flags (Debug):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wno-delete-non-virtual-dtor -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -g  -O0 -DDEBUG -D_DEBUG
+--     C Compiler:                  /usr/bin/cc
+--     C flags (Release):           -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -O3 -DNDEBUG  -DNDEBUG
+--     C flags (Debug):             -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-comment -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -g  -O0 -DDEBUG -D_DEBUG
+--     Linker flags (Release):      -Wl,--gc-sections
+--     Linker flags (Debug):        -Wl,--gc-sections
+--     ccache:                      NO
+--     Precompiled headers:         YES
+--     Extra dependencies:          dl m pthread rt
+--     3rdparty dependencies:
+--
+--   OpenCV modules:
+--     To be built:                 calib3d core dnn features2d flann highgui imgcodecs imgproc ml objdetect photo python2 shape stitching superres ts video videoio videostab
+--     Disabled:                    world
+--     Disabled by dependency:      -
+--     Unavailable:                 cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev java js python3 viz
+--     Applications:                tests perf_tests apps
+--     Documentation:               NO
+--     Non-free algorithms:         NO
+--
+--   GUI:
+--     GTK+:                        YES (ver 2.24.30)
+--       GThread :                  YES (ver 2.48.2)
+--       GtkGlExt:                  NO
+--     VTK support:                 NO
+--
+--   Media I/O:
+--     ZLib:                        /usr/lib/x86_64-linux-gnu/libz.so (ver 1.2.8)
+--     JPEG:                        /usr/lib/x86_64-linux-gnu/libjpeg.so (ver 80)
+--     WEBP:                        build (ver encoder: 0x020e)
+--     PNG:                         /usr/lib/x86_64-linux-gnu/libpng.so (ver 1.2.54)
+--     TIFF:                        /usr/lib/x86_64-linux-gnu/libtiff.so (ver 42 / 4.0.6)
+--     JPEG 2000:                   /usr/lib/x86_64-linux-gnu/libjasper.so (ver 1.900.1)
+--     OpenEXR:                     build (ver 1.7.1)
+--     HDR:                         YES
+--     SUNRASTER:                   YES
+--     PXM:                         YES
+--
+--   Video I/O:
+--     DC1394:                      YES (ver 2.2.4)
+--     FFMPEG:                      YES
+--       avcodec:                   YES (ver 56.60.100)
+--       avformat:                  YES (ver 56.40.101)
+--       avutil:                    YES (ver 54.31.100)
+--       swscale:                   YES (ver 3.1.101)
+--       avresample:                NO
+--     GStreamer:                   NO
+--     libv4l/libv4l2:              NO
+--     v4l/v4l2:                    linux/videodev2.h
+--
+--   Parallel framework:            pthreads
+--
+--   Trace:                         YES (with Intel ITT)
+--
+--   Other third-party libraries:
+--     Intel IPP:                   2019.0.0 Gold [2019.0.0]
+--            at:                   /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/icv
+--     Intel IPP IW:                sources (2019.0.0)
+--               at:                /root/opencv-3.4.6/build/3rdparty/ippicv/ippicv_lnx/iw
+--     Lapack:                      NO
+--     Eigen:                       NO
+--     Custom HAL:                  NO
+--     Protobuf:                    build (3.5.1)
+--
+--   OpenCL:                        YES (no extra features)
+--     Include path:                /root/opencv-3.4.6/3rdparty/include/opencl/1.2
+--     Link libraries:              Dynamic load
+--
+--   Python 2:
+--     Interpreter:                 /usr/bin/python2.7 (ver 2.7.12)
+--     Libraries:                   /usr/lib/x86_64-linux-gnu/libpython2.7.so (ver 2.7.12)
+--     numpy:                       /usr/lib/python2.7/dist-packages/numpy/core/include (ver 1.11.0)
+--     install path:                lib/python2.7/dist-packages/cv2/python-2.7
+--
+--   Python (for build):            /usr/bin/python2.7
+--
+--   Java:
+--     ant:                         NO
+--     JNI:                         NO
+--     Java wrappers:               NO
+--     Java tests:                  NO
+--
+--   Install to:                    /usr/local
+-- -----------------------------------------------------------------
+--
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/opencv-3.4.6/build
 ~# make -j7
+Scanning dependencies of target gen-pkgconfig
+Scanning dependencies of target libwebp
+Scanning dependencies of target ippiw
+Scanning dependencies of target quirc
+Scanning dependencies of target libprotobuf
+Scanning dependencies of target ittnotify
+Scanning dependencies of target IlmImf
+[  0%] Generate opencv.pc
+[  0%] Building C object 3rdparty/quirc/CMakeFiles/quirc.dir/src/decode.c.o
+[  0%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_core.c.o
+[  1%] Building C object 3rdparty/ittnotify/CMakeFiles/ittnotify.dir/src/ittnotify/ittnotify_static.c.o
+[  1%] Built target gen-pkgconfig
+[  1%] Building C object 3rdparty/libwebp/CMakeFiles/libwebp.dir/src/dec/alpha_dec.c.o
+[  1%] Building CXX object 3rdparty/openexr/CMakeFiles/IlmImf.dir/Half/half.cpp.o
+Scanning dependencies of target opencv_core_pch_dephelp
+[  2%] Building C object 3rdparty/ippiw/CMakeFiles/ippiw.dir/src/iw_image.c.o
+[  2%] Building CXX object 3rdparty/protobuf/CMakeFiles/libprotobuf.dir/src/google/protobuf/arena.cc.o
+～略～
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_stitch.cpp.o
+[ 98%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_blenders.cuda.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_inner_functions.cpp.o
+[ 98%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/old_ml_tree.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_test_calib3d
+[ 99%] Building CXX object apps/traincascade/CMakeFiles/opencv_traincascade.dir/traincascade.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_test_stitching.dir/test/test_matchers.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.ssse3.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_1.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/opencl/perf_warpers.cpp.o
+[ 99%] Built target opencv_test_calib3d
+Scanning dependencies of target opencv_python2
+[ 99%] Linking CXX executable ../../bin/opencv_test_stitching
+[ 99%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+[ 99%] Built target opencv_test_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.sse4_2.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_estimators.cpp.o
+[ 99%] Built target opencv_traincascade
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_main.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_matchers.cpp.o
+[ 99%] Building CXX object modules/stitching/CMakeFiles/opencv_perf_stitching.dir/perf/perf_stich.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.fp16.cpp.o
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_perf_stitching
+[ 99%] Built target opencv_perf_stitching
+[ 99%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin128.avx2.cpp.o
+[100%] Building CXX object modules/core/CMakeFiles/opencv_test_core.dir/test/test_intrin256.avx2.cpp.o
+[100%] Linking CXX executable ../../bin/opencv_test_core
+[100%] Built target opencv_test_core
+[100%] Linking CXX shared module ../../lib/cv2.so
+[100%] Built target opencv_python2
 ~# make install
+[  0%] Built target gen-pkgconfig
+[  9%] Built target libwebp
+[ 14%] Built target IlmImf
+[ 16%] Built target ippiw
+[ 21%] Built target libprotobuf
+[ 22%] Built target quirc
+[ 23%] Built target ittnotify
+[ 23%] Built target opencv_core_pch_dephelp
+[ 24%] Built target pch_Generate_opencv_core
+[ 32%] Built target opencv_core
+[ 32%] Built target opencv_perf_core_pch_dephelp
+～略～
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_frontalface_improved.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_profileface.xml
+-- Installing: /usr/local/share/OpenCV/lbpcascades/lbpcascade_silverware.xml
+-- Installing: /usr/local/bin/opencv_traincascade
+-- Set runtime path of "/usr/local/bin/opencv_traincascade" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_createsamples
+-- Set runtime path of "/usr/local/bin/opencv_createsamples" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_annotation
+-- Set runtime path of "/usr/local/bin/opencv_annotation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_visualisation
+-- Set runtime path of "/usr/local/bin/opencv_visualisation" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_interactive-calibration
+-- Set runtime path of "/usr/local/bin/opencv_interactive-calibration" to "/usr/local/lib"
+-- Installing: /usr/local/bin/opencv_version
+-- Set runtime path of "/usr/local/bin/opencv_version" to "/usr/local/lib"
 ```

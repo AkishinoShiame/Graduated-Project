@@ -10,20 +10,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory, session
-from werkzeug import secure_filename
+from flask import Flask, request, send_file, send_from_directory, session    # Base Server Library, using Flask
+from werkzeug import secure_filename        # Library to Reject some extension been upload
 # belows include self-define libs and func
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
+from AWWW_wav_to_spectro import wav2sep      # Import Function of making wav speech sound to spectrogram for NVidia DIGITS.
+from AWWW_wav_to_STT import input_filename    # Import Function of using Google Speech API to perform speech to text job
+from AWWW_jiebaCut import func_cut          # Import Function of sentence split to words applied on Chinese language.
+from AWWW_chatbot_response import Chat_with_Bot    # Import Function of chatbot interaction reply. 
+from AWWW_pic_pred import pred               # Import Function of speech spectrogram for NVidia DIGITS to predict the emotions.
 # aboves include self-define libs and func
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # Initial Chatbot
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # Define for trained model 
 
 
 app = Flask(__name__)
@@ -105,20 +105,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory
-from werkzeug import secure_filename
+from flask import Flask, request, send_file, send_from_directory, session    # Base Server Library, using Flask
+from werkzeug import secure_filename        # Library to Reject some extension been upload
 # belows include self-define libs and func
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
+from AWWW_wav_to_spectro import wav2sep      # Import Function of making wav speech sound to spectrogram for NVidia DIGITS.
+from AWWW_wav_to_STT import input_filename    # Import Function of using Google Speech API to perform speech to text job
+from AWWW_jiebaCut import func_cut          # Import Function of sentence split to words applied on Chinese language.
+from AWWW_chatbot_response import Chat_with_Bot    # Import Function of chatbot interaction reply. 
+from AWWW_pic_pred import pred               # Import Function of speech spectrogram for NVidia DIGITS to predict the emotions.
 # aboves include self-define libs and func
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # Initial Chatbot
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # Define for trained model 
 
 
 app = Flask(__name__)
@@ -207,20 +207,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory, session
-from werkzeug import secure_filename
-# belows include self-define libs and func
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
-# aboves include self-define libs and func
+from flask import Flask, request, send_file, send_from_directory, session    # サーバー基盤なライブラリ、Flaskを使う。
+from werkzeug import secure_filename        # 安全確保の為、不適切なファイルアップロードをブロックするなライブラリ
+# この下は自己定義な機能とライブラリ
+from AWWW_wav_to_spectro import wav2sep      # NVidia DIGITSを使うために、音声データをスペクトログラム画像に変換する機能を登録する。
+from AWWW_wav_to_STT import input_filename    # Google Speech APIを利用して、音声資料を文字に変換する機能を登録する。
+from AWWW_jiebaCut import func_cut          # 中国語の対話を単語するの機能を登録する。
+from AWWW_chatbot_response import Chat_with_Bot    # チャットボットの返事を出る機能を登録する。　 
+from AWWW_pic_pred import pred               # スペクトログラム画像をNVidia DIGITSに感情を分別するの機能を登録する。
+# この上は自己定義な機能とライブラリ
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # チャットボットを初期化
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # 訓練したのモデルを定義する。
 
 
 app = Flask(__name__)
@@ -302,20 +302,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory
-from werkzeug import secure_filename
-# belows include self-define libs and func
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
-# aboves include self-define libs and func
+from flask import Flask, request, send_file, send_from_directory    # サーバー基盤なライブラリ、Flaskを使う。
+from werkzeug import secure_filename        # 安全確保の為、不適切なファイルアップロードをブロックするなライブラリ
+# この下は自己定義な機能とライブラリ
+from AWWW_wav_to_spectro import wav2sep      # NVidia DIGITSを使うために、音声データをスペクトログラム画像に変換する機能を登録する。
+from AWWW_wav_to_STT import input_filename    # Google Speech APIを利用して、音声資料を文字に変換する機能を登録する。
+from AWWW_jiebaCut import func_cut          # 中国語の対話を単語するの機能を登録する。
+from AWWW_chatbot_response import Chat_with_Bot    # チャットボットの返事を出る機能を登録する。　 
+from AWWW_pic_pred import pred               # スペクトログラム画像をNVidia DIGITSに感情を分別するの機能を登録する。
+# この上は自己定義な機能とライブラリ
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # チャットボットを初期化
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # 訓練したのモデルを定義する。
 
 
 app = Flask(__name__)
@@ -406,13 +406,13 @@ Created on Tue Jan 12 17:18:16 2016
 import os
 from flask import Flask, request, send_file, send_from_directory, session
 from werkzeug import secure_filename
-# belows include self-define libs and func
+# 以下是自定義的函示庫與功能
 from AWWW_wav_to_spectro import wav2sep
 from AWWW_wav_to_STT import input_filename
 from AWWW_jiebaCut import func_cut
 from AWWW_chatbot_response import Chat_with_Bot
 from AWWW_pic_pred import pred
-# aboves include self-define libs and func
+# 以上是自定義的函示庫與功能
 import numpy as np
 import json
 from chatbot import chatbot
@@ -501,13 +501,13 @@ Created on Tue Jan 12 17:18:16 2016
 import os
 from flask import Flask, request, send_file, send_from_directory
 from werkzeug import secure_filename
-# belows include self-define libs and func
+# 以下是自定義的函示庫與功能
 from AWWW_wav_to_spectro import wav2sep
 from AWWW_wav_to_STT import input_filename
 from AWWW_jiebaCut import func_cut
 from AWWW_chatbot_response import Chat_with_Bot
 from AWWW_pic_pred import pred
-# aboves include self-define libs and func
+# 以上是自定義的函示庫與功能
 import numpy as np
 import json
 from chatbot import chatbot

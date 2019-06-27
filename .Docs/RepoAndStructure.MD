@@ -9,6 +9,21 @@ AI Kernel (Graduated-Project)
 ├── Chinese-Speech-Emotion-Datasets    - The datasets used by this system. 
 ├── Speech-Dataset-in-scikit-learn    - Calling algorithms in scikit-learn library for research purpose. 
 ├── Virtual-Elderly-Chatbot-App    - Unity project for create client APPs used.
+│    └── Assets
+│        ├── EasyTTS
+│        ├── Scripts
+│        │   ├── ChangeScene.cs
+│        │   ├── EasyTTSUtil.cs
+│        │   ├── GonWe.cs
+│        │   ├── LoadAndChangeModel.cs
+│        │   ├── RecordAndUpload.cs
+│        │   ├── SavWav.cs
+│        │   ├── Scene_Menu
+│        │   │   └── SwapScroolTex.cs
+│        │   ├── ScriptsForIPAndEmotion.cs
+│        │   ├── SpeechSound.cs
+│        │   └── WebcamBG.cs
+│        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - The Xcode project build from Unity Project. 
 └── Virtual-Elderly-Chatbot-Server-Structure    - The main server of this AI kernel service.
      ├── NoTag                        - The pure ChatBot. 
@@ -44,6 +59,21 @@ AI Kernel (Graduated-Project)
 ├── Chinese-Speech-Emotion-Datasets    - このシステムを使うの訓練資料。　
 ├── Speech-Dataset-in-scikit-learn    - scikit-learnのライブラリを使って、研究の為に色んなアルゴリズムを実行する。　
 ├── Virtual-Elderly-Chatbot-App    - クライアントのアプリを作る、Unityのプロジェクト。　
+│    └── Assets
+│        ├── EasyTTS
+│        ├── Scripts
+│        │   ├── ChangeScene.cs
+│        │   ├── EasyTTSUtil.cs
+│        │   ├── GonWe.cs
+│        │   ├── LoadAndChangeModel.cs
+│        │   ├── RecordAndUpload.cs
+│        │   ├── SavWav.cs
+│        │   ├── Scene_Menu
+│        │   │   └── SwapScroolTex.cs
+│        │   ├── ScriptsForIPAndEmotion.cs
+│        │   ├── SpeechSound.cs
+│        │   └── WebcamBG.cs
+│        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - UnityのプロジェクトをビルドしたのXcodeプロジェクト。　
 └── Virtual-Elderly-Chatbot-Server-Structure    - このAI Kernelサービスのメインプログラム。　
      ├── NoTag                        - 普通のチャットボット。　
@@ -79,6 +109,21 @@ AI Kernel (Graduated-Project)
 ├── Chinese-Speech-Emotion-Datasets    - 此系統所使用的訓練資料集。 
 ├── Speech-Dataset-in-scikit-learn    - 調用Python的scikit-learn進行部分演算法訓練，初步研究用。 
 ├── Virtual-Elderly-Chatbot-App    - 使用Unity所建置客戶端程式的專案。 
+│    └── Assets
+│        ├── EasyTTS
+│        ├── Scripts
+│        │   ├── ChangeScene.cs
+│        │   ├── EasyTTSUtil.cs
+│        │   ├── GonWe.cs
+│        │   ├── LoadAndChangeModel.cs
+│        │   ├── RecordAndUpload.cs
+│        │   ├── SavWav.cs
+│        │   ├── Scene_Menu
+│        │   │   └── SwapScroolTex.cs
+│        │   ├── ScriptsForIPAndEmotion.cs
+│        │   ├── SpeechSound.cs
+│        │   └── WebcamBG.cs
+│        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - 由Unity編譯與建置出的Xcode專案，為產生IOS手機程式用。
 └── Virtual-Elderly-Chatbot-Server-Structure    - 產生本AI kernel所必須的主程式。
      ├── NoTag                        - 純粹的聊天機器人。 

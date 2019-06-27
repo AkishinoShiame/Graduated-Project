@@ -37,6 +37,8 @@ Then follow the official instrouction to build and install.
 ~# make install 
 ```
 
+`==================================Split-Line===========================================`
+
 ## Install Caffe
 
 # Caffeのインストール
@@ -77,6 +79,8 @@ Checking out files: 100% (9159/9159), done.
 ~# cmake ..
 ~# make install 
 ```
+
+`==================================キリカエ-セン=========================================`
 
 ## Caffeをインストール
 

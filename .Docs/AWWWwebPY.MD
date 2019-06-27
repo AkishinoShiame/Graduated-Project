@@ -404,20 +404,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory, session
-from werkzeug import secure_filename
+from flask import Flask, request, send_file, send_from_directory, session    # 伺服器基礎所需用的函示庫、使用Flask。
+from werkzeug import secure_filename        # 基本資安，防止具不正確副檔名的檔案被上傳
 # 以下是自定義的函示庫與功能
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
+from AWWW_wav_to_spectro import wav2sep      # 匯入將錄製的語音檔轉換成聲紋圖給NVidia DIGITS使用的功能。
+from AWWW_wav_to_STT import input_filename    # 匯入利用Google Speech API所提供的服務進行語音轉文字的功能。
+from AWWW_jiebaCut import func_cut          # 匯入結巴斷詞，將整個中文句子進行斷詞以供聊天機器人作動。
+from AWWW_chatbot_response import Chat_with_Bot    # 匯入提供聊天機器人產生回覆的程式。 
+from AWWW_pic_pred import pred               # 匯入將聲紋圖經由本程式傳至NVidia DIGITS進行情感判別。 
 # 以上是自定義的函示庫與功能
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # 初始化聊天機器人程式
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # 定義所要使用，已經訓練好的模型
 
 
 app = Flask(__name__)
@@ -499,20 +499,20 @@ Created on Tue Jan 12 17:18:16 2016
 """
 
 import os
-from flask import Flask, request, send_file, send_from_directory
-from werkzeug import secure_filename
+from flask import Flask, request, send_file, send_from_directory    # 伺服器基礎所需用的函示庫、使用Flask。
+from werkzeug import secure_filename        # 基本資安，防止具不正確副檔名的檔案被上傳
 # 以下是自定義的函示庫與功能
-from AWWW_wav_to_spectro import wav2sep
-from AWWW_wav_to_STT import input_filename
-from AWWW_jiebaCut import func_cut
-from AWWW_chatbot_response import Chat_with_Bot
-from AWWW_pic_pred import pred
+from AWWW_wav_to_spectro import wav2sep      # 匯入將錄製的語音檔轉換成聲紋圖給NVidia DIGITS使用的功能。
+from AWWW_wav_to_STT import input_filename    # 匯入利用Google Speech API所提供的服務進行語音轉文字的功能。
+from AWWW_jiebaCut import func_cut          # 匯入結巴斷詞，將整個中文句子進行斷詞以供聊天機器人作動。
+from AWWW_chatbot_response import Chat_with_Bot    # 匯入提供聊天機器人產生回覆的程式。 
+from AWWW_pic_pred import pred               # 匯入將聲紋圖經由本程式傳至NVidia DIGITS進行情感判別。 
 # 以上是自定義的函示庫與功能
 import numpy as np
 import json
 from chatbot import chatbot
-AkishinoProjectBot = chatbot.Chatbot()
-AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])
+AkishinoProjectBot = chatbot.Chatbot()        # 初始化聊天機器人程式
+AkishinoProjectBot.main(['--modelTag', 'taiwa20170709', '--test', 'daemon'])    # 定義所要使用，已經訓練好的模型
 
 
 app = Flask(__name__)

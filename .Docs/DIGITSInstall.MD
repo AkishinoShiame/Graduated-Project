@@ -277,6 +277,19 @@ Finally we can execute the DIGITS server:
 
 `~# ./digits-devserver`
 
+```bash
+root@HOSTNAME:~/DIGITS# ./digits-devserver
+  ___ ___ ___ ___ _____ ___
+ |   \_ _/ __|_ _|_   _/ __|
+ | |) | | (_ || |  | | \__ \
+ |___/___\___|___| |_| |___/ 6.1.1
+
+Tensorflow support disabled.
+2019-06-28 17:03:19 [INFO ] Loaded 4 jobs.
+```
+
+`=========================================Split-Line===============================================`
+
 # DIGITSのインストール
 
 これはNVidia DIGITSのインストール手順。
@@ -537,6 +550,19 @@ root@HOSTNAME:~#
 `~# cd $DIGITS_ROOT`
 
 `~# ./digits-devserver`
+
+```bash
+root@HOSTNAME:~/DIGITS# ./digits-devserver
+  ___ ___ ___ ___ _____ ___
+ |   \_ _/ __|_ _|_   _/ __|
+ | |) | | (_ || |  | | \__ \
+ |___/___\___|___| |_| |___/ 6.1.1
+
+Tensorflow support disabled.
+2019-06-28 17:03:19 [INFO ] Loaded 4 jobs.
+```
+
+`=========================================キリカエ-セン===============================================`
 
 # DIGITS 安裝
 
@@ -821,3 +847,14 @@ root@HOSTNAME:~#
 `~# cd $DIGITS_ROOT`
 
 `~# ./digits-devserver`
+
+```bash
+root@HOSTNAME:~/DIGITS# ./digits-devserver
+  ___ ___ ___ ___ _____ ___
+ |   \_ _/ __|_ _|_   _/ __|
+ | |) | | (_ || |  | | \__ \
+ |___/___\___|___| |_| |___/ 6.1.1
+
+Tensorflow support disabled.
+2019-06-28 17:03:19 [INFO ] Loaded 4 jobs.
+```

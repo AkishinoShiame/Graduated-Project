@@ -10,19 +10,19 @@ AI Kernel (Graduated-Project)
 ├── Speech-Dataset-in-scikit-learn    - Calling algorithms in scikit-learn library for research purpose. 
 ├── Virtual-Elderly-Chatbot-App    - Unity project for create client APPs used.
 │    └── Assets
-│        ├── EasyTTS
+│        ├── EasyTTS    - Plugins buy from Unity Store.If you want to reuse this project, please buy the plugin again.
 │        ├── Scripts
-│        │   ├── ChangeScene.cs
-│        │   ├── EasyTTSUtil.cs
-│        │   ├── GonWe.cs
-│        │   ├── LoadAndChangeModel.cs
-│        │   ├── RecordAndUpload.cs
-│        │   ├── SavWav.cs
+│        │   ├── ChangeScene.cs    - The function for changing Screen from main to other function
+│        │   ├── EasyTTSUtil.cs    - The function of the Text to Speech Plugin.
+│        │   ├── GonWe.cs    - Create Text to Speech function for calling
+│        │   ├── LoadAndChangeModel.cs    - Make main scene record bottom and anime model work.
+│        │   ├── RecordAndUpload.cs    - Create record and upload function for bottom to work, co-work with Server API.
+│        │   ├── SavWav.cs    - Function to save record as temp WAV file, upload used only.
 │        │   ├── Scene_Menu
-│        │   │   └── SwapScroolTex.cs
-│        │   ├── ScriptsForIPAndEmotion.cs
-│        │   ├── SpeechSound.cs
-│        │   └── WebcamBG.cs
+│        │   │   └── SwapScroolTex.cs    - Let the anime model for selective option.
+│        │   ├── ScriptsForIPAndEmotion.cs    - For the config if the server IP chanes or Emotion reply debug.
+│        │   ├── SpeechSound.cs    - Perform different pre-record sound for question asking.
+│        │   └── WebcamBG.cs    - Background to simulate as AR.
 │        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - The Xcode project build from Unity Project. 
 └── Virtual-Elderly-Chatbot-Server-Structure    - The main server of this AI kernel service.
@@ -60,19 +60,19 @@ AI Kernel (Graduated-Project)
 ├── Speech-Dataset-in-scikit-learn    - scikit-learnのライブラリを使って、研究の為に色んなアルゴリズムを実行する。　
 ├── Virtual-Elderly-Chatbot-App    - クライアントのアプリを作る、Unityのプロジェクト。　
 │    └── Assets
-│        ├── EasyTTS
+│        ├── EasyTTS    -　Unityストアに買ったのプラグインです。もし利用が必要の場合は、ストアにもう一度買ってください。
 │        ├── Scripts
-│        │   ├── ChangeScene.cs
-│        │   ├── EasyTTSUtil.cs
-│        │   ├── GonWe.cs
-│        │   ├── LoadAndChangeModel.cs
-│        │   ├── RecordAndUpload.cs
-│        │   ├── SavWav.cs
+│        │   ├── ChangeScene.cs    - メイン画面を変わえるの機能。
+│        │   ├── EasyTTSUtil.cs    - 文字を音声に答えするのプラグイン。
+│        │   ├── GonWe.cs    - 文字に音声を変換とスピーチを出す可能の機能。
+│        │   ├── LoadAndChangeModel.cs    - メイン画面が録音ボタンとアニメモデルが動けますの機能。
+│        │   ├── RecordAndUpload.cs    - 録音とサーバーにアップロードできるの機能、サーバーのAPIと一緒に共同作業。
+│        │   ├── SavWav.cs    - WAVEファイルに音声を保存する。
 │        │   ├── Scene_Menu
-│        │   │   └── SwapScroolTex.cs
-│        │   ├── ScriptsForIPAndEmotion.cs
-│        │   ├── SpeechSound.cs
-│        │   └── WebcamBG.cs
+│        │   │   └── SwapScroolTex.cs    - アニメモデルが選択可能な機能。
+│        │   ├── ScriptsForIPAndEmotion.cs    - サーバーIPを変わえるとデバッグの感情認識資料を表現する。るとデバッグの感情認識資料を表現する。
+│        │   ├── SpeechSound.cs    - 幾つの問題を用意したそうして変わって出来るな機能。
+│        │   └── WebcamBG.cs    - アプリにAR感の機能を作る。
 │        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - UnityのプロジェクトをビルドしたのXcodeプロジェクト。　
 └── Virtual-Elderly-Chatbot-Server-Structure    - このAI Kernelサービスのメインプログラム。　
@@ -110,19 +110,19 @@ AI Kernel (Graduated-Project)
 ├── Speech-Dataset-in-scikit-learn    - 調用Python的scikit-learn進行部分演算法訓練，初步研究用。 
 ├── Virtual-Elderly-Chatbot-App    - 使用Unity所建置客戶端程式的專案。 
 │    └── Assets
-│        ├── EasyTTS
+│        ├── EasyTTS    - 從Unity商店購買下來的文字轉語音插件，如有要重複使用此專案請依規定購買此套件。
 │        ├── Scripts
-│        │   ├── ChangeScene.cs
-│        │   ├── EasyTTSUtil.cs
-│        │   ├── GonWe.cs
-│        │   ├── LoadAndChangeModel.cs
-│        │   ├── RecordAndUpload.cs
-│        │   ├── SavWav.cs
+│        │   ├── ChangeScene.cs    - 轉換場景的程式碼，提供主畫面跟其他功能畫面的切換。
+│        │   ├── EasyTTSUtil.cs    - 文字轉語音插件隨附的程式碼
+│        │   ├── GonWe.cs    - 產生可被呼叫的文字轉語音功能。
+│        │   ├── LoadAndChangeModel.cs    - 使主畫面的錄音按鈕與虛擬角色可動的功能
+│        │   ├── RecordAndUpload.cs    - 錄音與上傳給伺服端的功能，並取得回傳資訊。將伺服器API串接與連動。
+│        │   ├── SavWav.cs    - 提供暫時性把錄製的語音轉成WAVE檔以供一次性上傳使用。
 │        │   ├── Scene_Menu
-│        │   │   └── SwapScroolTex.cs
-│        │   ├── ScriptsForIPAndEmotion.cs
-│        │   ├── SpeechSound.cs
-│        │   └── WebcamBG.cs
+│        │   │   └── SwapScroolTex.cs    - 切換虛擬人物角色的程式碼。
+│        │   ├── ScriptsForIPAndEmotion.cs    - 提供伺服器更換IP與測試情感有被正確回傳的功能。
+│        │   ├── SpeechSound.cs    - 提供預設的問題，提供與播放預錄好得引導問句。
+│        │   └── WebcamBG.cs    - 產生如同有AR感覺的背景。
 │        └── Scripts.meta
 ├── Virtual-Elderly-Chatbot-IOS-Project    - 由Unity編譯與建置出的Xcode專案，為產生IOS手機程式用。
 └── Virtual-Elderly-Chatbot-Server-Structure    - 產生本AI kernel所必須的主程式。

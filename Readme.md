@@ -61,6 +61,10 @@ Ming Che Lee, Sheng Cheng Yeh, Sheng Yu Chiu, Jia Wei Chang.
 #### 2019.04.17
 
 > Trying rebuild the server part.
+>
+> HardWare as the link:
+>
+> [Japanese](https://github.com/AkishinoShiame/Graduated-Project/tree/master/.Docs#%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E6%BA%96%E5%82%99) [English](https://github.com/AkishinoShiame/Graduated-Project/tree/master/.Docs#hardware-prepration) [Chinese](https://github.com/AkishinoShiame/Graduated-Project/tree/master/.Docs#%E7%A1%AC%E9%AB%94%E9%85%8D%E7%BD%AE) 
 
 #### 2019.06.17
 

@@ -39,9 +39,9 @@ Also, I try to rebuild this structure now and will update a beta release of the 
 
 The beta release of this project will finished after the documentation done.
 
-Now keep updating...(86%)
+Now keep updating...(93%)
 
-`[============================================================> ??????]`
+`[================================================================> ??]`
 
 Read the Document from [Here](.Docs#content--%E7%9B%AE%E6%AC%A1--%E7%9B%AE%E9%8C%84)
 

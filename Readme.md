@@ -82,7 +82,7 @@ Ming Che Lee, Sheng Cheng Yeh, Sheng Yu Chiu, Jia Wei Chang.
 
 > Update the Server code locate in [sub-respositories](https://github.com/AkishinoShiame/Virtual-Elderly-Chatbot-Server-Structure) 
 >
-> Set-up a V2.0 release(May be final).
+> Set-up a V2.0 release(May be final). Which can found in [Here](https://github.com/AkishinoShiame/Virtual-Elderly-Chatbot-Server-Structure/releases/tag/V2.0). 
 >
 > May have added update & release for builds on Unity and IOS 12 in recent future.
 

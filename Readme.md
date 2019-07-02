@@ -85,6 +85,10 @@ Ming Che Lee, Sheng Cheng Yeh, Sheng Yu Chiu, Jia Wei Chang.
 > Set-up a V2.0 release(May be final). Which can found in [Here](https://github.com/AkishinoShiame/Virtual-Elderly-Chatbot-Server-Structure/releases/tag/V2.0). 
 >
 > May have added update & release for builds on Unity and IOS 12 in recent future.
+>
+> Update @ 22:49 JPT with IOS 12 release project 
+>
+> Create production Release.
 
 ## [DOCs](.Docs#content--%E7%9B%AE%E6%AC%A1--%E7%9B%AE%E9%8C%84)
 

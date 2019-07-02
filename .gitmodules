@@ -13,3 +13,6 @@
 [submodule "Speech-Dataset-in-scikit-learn"]
 	path = Speech-Dataset-in-scikit-learn
 	url = https://github.com/artmusic0/Speech-Dataset-in-scikit-learn
+[submodule "Virtual-Elderly-Chatbot-IOS-Project-IOS-12"]
+	path = Virtual-Elderly-Chatbot-IOS-Project-IOS-12
+	url = https://github.com/AkishinoShiame/Virtual-Elderly-Chatbot-IOS-Project-IOS-12

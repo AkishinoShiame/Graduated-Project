@@ -86,6 +86,10 @@ Ming Che Lee, Sheng Cheng Yeh, Sheng Yu Chiu, Jia Wei Chang.
 >
 > May have added update & release for builds on Unity and IOS 12 in recent future.
 
+## [DOCs](.Docs#content--%E7%9B%AE%E6%AC%A1--%E7%9B%AE%E9%8C%84)
+
+Create and update documentation in "令和Update" release.
+
 ## Video DEMO
 
 #### Demoムービー０１
